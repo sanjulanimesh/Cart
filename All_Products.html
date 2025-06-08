@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CameraLK - Rent Camera Gear</title>
+    <title>Rent Camera Gear</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -12,16 +12,23 @@
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <img src="Assets/logo.png" alt="CameraLK Logo" class="logo">
-        <div class="search-container">
-            <input type="text" placeholder="Search...">
-            <button type="submit"><i class="fas fa-search"></i></button>
-        </div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+        <div class="nav-container">
+            <img src="Assets/logo.png" alt="CameraLK Logo" class="logo">
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-content">
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -29,7 +36,9 @@
     <div class="container">
         <!-- Filters Section -->
         <div class="filters">
-            <h3>FILTERS</h3>
+            <div class="filters-header">
+                <h3>FILTERS</h3>
+            </div>
 
             <div class="filter-group">
                 <h4>CATEGORY</h4>
@@ -63,181 +72,160 @@
         </div>
 
         <!-- Products Section -->
-        <div class="products">
-            <!-- Camera Products -->
-            <div class="product-card" data-category="cameras" data-product-id="Cam_01">
-                <img src="camera/Cameras/Cam_01/Cam_01.jpg" alt="DSLR Camera" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Sony Alpha a7 III Mirrorless Digital Camera</h3>
-                    <div class="product-price">Rs 4500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
-                </div>
+        <div class="products-container">
+            <div class="products-header">
+                <h2>Our Products</h2>
             </div>
+            <div class="products">
+                <!-- Camera Products -->
+                <div class="product-card" data-category="cameras" data-product-id="Cam_01">
+                    <img src="camera/Cameras/Cam_01/Cam_01.jpg" alt="DSLR Camera" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Sony Alpha a7 III Mirrorless Digital Camera</h3>
+                        <div class="product-price">Rs 4500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
+                </div>
 
-            <div class="product-card" data-category="cameras" data-product-id="Cam_02">
-                <img src="camera/Cameras/Cam_02/Cam_02.jpg" alt="Mirrorless Camera" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
-                    <div class="product-price">Rs 2500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="cameras" data-product-id="Cam_02">
+                    <img src="camera/Cameras/Cam_02/Cam_02.jpg" alt="Mirrorless Camera" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
+                        <div class="product-price">Rs 2500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="cameras" data-product-id="Cam_03">
-                <img src="camera/Cameras/Cam_03/Cam_03.jpg" alt="Mirrorless Camera" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
-                    <div class="product-price">Rs 2500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="cameras" data-product-id="Cam_03">
+                    <img src="camera/Cameras/Cam_03/Cam_03.jpg" alt="Mirrorless Camera" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
+                        <div class="product-price">Rs 2500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="cameras" data-product-id="Cam_04">
-                <img src="camera/Cameras/Cam_04/Cam_04.jpg" alt="Mirrorless Camera" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
-                    <div class="product-price">Rs 2500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="cameras" data-product-id="Cam_04">
+                    <img src="camera/Cameras/Cam_04/Cam_04.jpg" alt="Mirrorless Camera" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Canon EOS 80D DSLR Camera</h3>
+                        <div class="product-price">Rs 2500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
-            <!-- Lens Products -->
-            <div class="product-card" data-category="lenses" data-product-id="Len_01">
-                <img src="Camera/Lenses/Len_01/Len_01.jpg" alt="50mm Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Sigma 150-600mm f/5-6.3 DG OS HSM Contemporary Lens for Nikon F</h3>
-                    <div class="product-price">Rs 2000 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <!-- Lens Products -->
+                <div class="product-card" data-category="lenses" data-product-id="Len_01">
+                    <img src="Camera/Lenses/Len_01/Len_01.jpg" alt="50mm Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Sigma 150-600mm f/5-6.3 DG OS HSM Contemporary Lens for Nikon F</h3>
+                        <div class="product-price">Rs 2000 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="lenses" data-product-id="Len_02">
-                <img src="Camera/Lenses/Len_02/Len_02.jpg" alt="Wide Angle Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Canon EF 70-200mm f/2.8L IS III USM Lens</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="lenses" data-product-id="Len_02">
+                    <img src="Camera/Lenses/Len_02/Len_02.jpg" alt="Wide Angle Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Canon EF 70-200mm f/2.8L IS III USM Lens</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="lenses" data-product-id="Len_03">
-                <img src="Camera/Lenses/Len_03/Len_03.jpg" alt="Wide Angle Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Sigma 150-600mm f/5-6.3 DG OS HSM Sports Lens for Nikon F</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="lenses" data-product-id="Len_03">
+                    <img src="Camera/Lenses/Len_03/Len_03.jpg" alt="Wide Angle Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Sigma 150-600mm f/5-6.3 DG OS HSM Sports Lens for Nikon F</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="lenses" data-product-id="Len_04">
-                <img src="Camera/Lenses/Len_04/Len_04.jpg" alt="Wide Angle Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Sirui Aurora 85mm f/1.4 Lens (Sony E) with Free Sirui 67mm UV Filter & Black Mist Filter</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="lenses" data-product-id="Len_04">
+                    <img src="Camera/Lenses/Len_04/Len_04.jpg" alt="Wide Angle Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Sirui Aurora 85mm f/1.4 Lens (Sony E) with Free Sirui 67mm UV Filter & Black Mist Filter</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="lenses" data-product-id="Len_05">
-                <img src="Camera/Lenses/Len_05/Len_05.jpg" alt="Wide Angle Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Sony E 55-210mm f/4.5-6.3 OSS Lens (Black)</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="lenses" data-product-id="Len_05">
+                    <img src="Camera/Lenses/Len_05/Len_05.jpg" alt="Wide Angle Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Sony E 55-210mm f/4.5-6.3 OSS Lens (Black)</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="lenses" data-product-id="Len_06">
-                <img src="Camera/Lenses/Len_06/Len_06.jpg" alt="Wide Angle Lens" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Canon RF-S 55-210mm f/5-7.1 IS STM Lens (Canon RF)</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="lenses" data-product-id="Len_06">
+                    <img src="Camera/Lenses/Len_06/Len_06.jpg" alt="Wide Angle Lens" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Canon RF-S 55-210mm f/5-7.1 IS STM Lens (Canon RF)</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
-            <!-- Flasher Products -->
-            <div class="product-card" data-category="flashers" data-product-id="Fla_01">
-                <img src="Camera/Flashers/Fla_01/Fla_01.jpg" alt="Camera Flash" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Godox VING V860IIN TTL Li-Ion Flash Kit for Nikon Cameras</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <!-- Flasher Products -->
+                <div class="product-card" data-category="flashers" data-product-id="Fla_01">
+                    <img src="Camera/Flashers/Fla_01/Fla_01.jpg" alt="Camera Flash" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Godox VING V860IIN TTL Li-Ion Flash Kit for Nikon Cameras</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="flashers" data-product-id="Fla_02">
-                <img src="Camera/Flashers/Fla_02/Fla_02.jpg" alt="Camera Flash" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Godox V1 Flash for Canon</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="flashers" data-product-id="Fla_02">
+                    <img src="Camera/Flashers/Fla_02/Fla_02.jpg" alt="Camera Flash" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Godox V1 Flash for Canon</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Gimbal Products -->
-            <div class="product-card" data-category="gimbels" data-product-id="Gim_01">
-                <img src="Camera/Gimbels/Gim_01/Gim_01.jpg" alt="Camera Gimbal" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">DJI Osmo Pocket 3 Creator Combo</h3>
-                    <div class="product-price">Rs 5000 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <!-- Gimbal Products -->
+                <div class="product-card" data-category="gimbels" data-product-id="Gim_01">
+                    <img src="Camera/Gimbels/Gim_01/Gim_01.jpg" alt="Camera Gimbal" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">DJI Osmo Pocket 3 Creator Combo</h3>
+                        <div class="product-price">Rs 5000 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="gimbels" data-product-id="Gim_02">
-                <img src="Camera/Gimbels/Gim_02/Gim_02.jpg" alt="Camera Gimbal" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">DJI Pocket 2 Creator Combo</h3>
-                    <div class="product-price">Rs 1500 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="gimbels" data-product-id="Gim_02">
+                    <img src="Camera/Gimbels/Gim_02/Gim_02.jpg" alt="Camera Gimbal" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">DJI Pocket 2 Creator Combo</h3>
+                        <div class="product-price">Rs 1500 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Drone Products -->
-            <div class="product-card" data-category="drones" data-product-id="Dro_01">
-                <img src="Camera/Drones/Dro_01/Dro_01.jpg" alt="Drone" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">DJI Avata 2 FPV Drone with 3-Battery Fly More Combo</h3>
-                    <div class="product-price">Rs 15000 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <!-- Drone Products -->
+                <div class="product-card" data-category="drones" data-product-id="Dro_01">
+                    <img src="Camera/Drones/Dro_01/Dro_01.jpg" alt="Drone" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">DJI Avata 2 FPV Drone with 3-Battery Fly More Combo</h3>
+                        <div class="product-price">Rs 15000 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="product-card" data-category="drones" data-product-id="Dro_02">
-                <img src="Camera/Drones/Dro_02/Dro_02.jpg" alt="Drone" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">DJI Mavic Air 2 Fly More Combo</h3>
-                    <div class="product-price">Rs 15000 per Night</div>
-                    <a href="#" class="call-button">Rent Now</a>
+                <div class="product-card" data-category="drones" data-product-id="Dro_02">
+                    <img src="Camera/Drones/Dro_02/Dro_02.jpg" alt="Drone" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">DJI Mavic Air 2 Fly More Combo</h3>
+                        <div class="product-price">Rs 15000 per Night</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Modal Structure -->
-    <div id="productModal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div class="slideshow-container">
-                <div class="slideshow-inner">
-                    <!-- Images will be added here dynamically -->
-                </div>
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
-                <div class="dots-container">
-                    <!-- Dots will be added here dynamically -->
-                </div>
-            </div>
-            <div class="modal-details">
-                <h2 id="modalProductTitle"></h2>
-                <div id="modalProductPrice" class="modal-price"></div>
-                <p id="modalProductDescription" class="modal-description"></p>
-                <a id="whatsappButton" class="whatsapp-button" href="#" target="_blank">
-                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
-                </a>
-            </div>
-        </div>
-    </div>
-
 
     <div class="subcontainer">
         <!-- Brand Section -->
@@ -264,8 +252,30 @@
         <button class="page-arrow" id="nextPage">&gt;</button>
     </div>
 
-
-    <!-- Footer -->
+    <!-- Modal Structure -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="slideshow-container">
+                <div class="slideshow-inner">
+                    <!-- Images will be added here dynamically -->
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+                <div class="dots-container">
+                    <!-- Dots will be added here dynamically -->
+                </div>
+            </div>
+            <div class="modal-details">
+                <h2 id="modalProductTitle"></h2>
+                <div id="modalProductPrice" class="modal-price"></div>
+                <p id="modalProductDescription" class="modal-description"></p>
+                <a id="whatsappButton" class="whatsapp-button" href="#" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="site-footer">
