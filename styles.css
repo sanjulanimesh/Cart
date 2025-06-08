@@ -117,6 +117,36 @@ nav {
     font-size: 13px;
 }
 
+.subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Optional: Makes sure it centers vertically if needed */
+}
+
+.brands {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px; /* spacing between logos */
+    margin-top: 20px;
+    flex-wrap: wrap; /* optional: makes it responsive */
+}
+
+.brand-logos img {
+    max-height: 60px;
+    object-fit: contain;
+}
+
+
 .products {
     flex: 1;
     display: grid;
@@ -702,4 +732,38 @@ nav {
 
 .parent-category > input[type="radio"]:checked + label::after {
     transform: rotate(180deg);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.page-number,
+.page-arrow {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
+}
+
+.page-number:hover,
+.page-arrow:hover {
+  background: #eee;
+  border-radius: 4px;
+}
+
+.page-number.active {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
 }
