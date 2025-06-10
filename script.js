@@ -301,4 +301,16 @@ document.addEventListener('DOMContentLoaded', function () {
             if (currentPage < pageNumbers.length) updateActivePage(currentPage + 1);
         });
     });
+
+        // Responsive nav toggle
+        document.getElementById('mobileMenuToggle').onclick = function() {
+            const navContent = document.getElementById('navContent');
+            navContent.classList.toggle('active');
+            if (navContent.classList.contains('active')) {
+            setTimeout(() => {
+                navContent.classList.remove('active');
+                window.scrollTo({ behavior: 'smooth' });
+            }, 2000);
+            }
+        };
 });
