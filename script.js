@@ -247,9 +247,9 @@ document.addEventListener('DOMContentLoaded', function () {
             if (product) {
                 modalDescription.textContent = product.description;
 
-                const whatsappMessage = `Hello Sanlek,\n\nI'm interested in renting:\n\n*Product:* ${productTitle}\n*Price:* ${productPrice}\n\n${product.description}\n\nPlease let me know about availability.`;
+                const whatsappMessage = `Hello Pixels Camera Rent,\n\nI'm interested in renting:\n\n*Product:* ${productTitle}\n*Price:* ${productPrice}\nPlease let me know about availability.`;
                 const encodedMessage = encodeURIComponent(whatsappMessage);
-                whatsappButton.href = `https://wa.link/29g5a5?text=${encodedMessage}`;
+                whatsappButton.href = `https://api.whatsapp.com/send?phone=94767782699&text=${encodedMessage}`;
             }
 
             modal.style.display = 'block';
