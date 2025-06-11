@@ -1,0 +1,147 @@
+.footer {
+    background-image: url(./images/bg-footer.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    padding: 1rem 0rem;
+
+}
+
+.newsletter .container {
+    align-items: center;
+}
+
+.newsletter h2 {
+    color: #fff;
+    margin: 5px 0px;
+}
+
+.newsletter p {
+    color: #aaa;
+}
+
+.newsletter .form form {
+    display: flex;
+    padding: 0rem 0rem;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.newsletter .form form input {
+    width: 200px;
+    padding: 0px 10px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+}
+.newsletter form button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* second footer */
+.second-footer {
+    background-color: #000000d0;
+    padding: 4rem 0rem;
+
+    border-bottom: 1px solid rgba(5, 5, 5, 0.1);
+}
+
+
+.second-footer .box {
+    max-width: 450px;
+}
+
+;
+
+
+.second-footer .title {
+    padding: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 15px 0px;
+
+}
+
+.second-footer .text p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #bbb;
+    padding: 15px 0px;
+}
+
+.second-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.second-footer ul li {
+    padding: 1px 0px;
+}
+
+.second-footer ul li a,
+.second-footer ul li span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer .box ul li a:hover {
+    color: #fff;
+}
+
+.copyright {
+    background-color: #000000c1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.51rem 6%;
+
+}
+
+.copyright p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.copyright p a {
+    color: #f1f1f1;
+}
+
+.social-icons {
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+}
+
+.social-icons a {
+    display: flex;
+    color: #444;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+
+}

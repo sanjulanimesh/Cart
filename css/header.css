@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    overflow-x: hidden !important;
+    background: #fff;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #f4f4f4;
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    padding: 1.2rem 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar .logo-wrapper {
+    height: 29px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 30%, #000000 50%, rgba(0, 0, 0, 0.5) 70%);
+    -webkit-mask-size: 180%;
+    animation: shine 2s linear infinite;
+
+}
+
+.logo-wrapper a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo-wrapper a strong {
+    font-family: 'Jost', sans-serif;
+    ;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: -5px;
+
+}
+
+
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .navbar-links a {
+    font-family: Jost, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.navbar .navbar-links a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.header {
+    background-image: url(./images/header.jpg);
+    min-height: 100vh;
+    background-color: #111;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .box {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.header .box h1 {
+    color: #fff;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 30%, #000000 50%, rgba(0, 0, 0, 0.5) 70%);
+    -webkit-mask-size: 180%;
+    animation: shine 2s linear infinite;
+}
+
+.header .box .btn {
+    padding: 0.25rem 1rem;
+    border: 1px solid #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 150;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    transform: scaleX();
+    transition: transform 0.5s, font-size 0.5s, color 0.5s;
+    display: inline-block;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.header .box .btn:hover {
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .header .box .btn {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+}
+
+/* Responsive Email Input */
+.responsive-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .responsive-input {
+      font-size: 0.95rem;
+      padding: 10px;
+      max-width: 100%;
+    }
+}
+
+/* Responsive Navbar and Header */
+@media (max-width: 900px) {
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.5rem; }
+    h4 { font-size: 1.1rem; }
+    .container {
+        padding: 1.2rem 3%;
+    }
+    .header .box {
+        max-width: 90%;
+        min-width: unset;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.2rem 3%;
+    }
+    .navbar {
+        position: static;
+        width: 100%;
+        background: #111;
+        z-index: 1000;
+    }
+    .navbar .logo-wrapper {
+        margin-bottom: 1rem;
+    }
+    .navbar .navbar-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 100%;
+        background: #111;
+        padding: 1rem 0;
+    }
+    .navbar .navbar-links a {
+        font-size: 18px;
+        padding: 0.5rem 0;
+        width: 100%;
+        color: #fff;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .header {
+        flex-direction: column;
+        min-height: 70vh;
+        padding: 2rem 0;
+        background-attachment: scroll;
+    }
+    .header .box {
+        max-width: 100%;
+        min-width: unset;
+        padding: 0 1rem;
+        text-align: left;
+    }
+    .header .box .btn {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-top: 0.rem;
+    }
+    .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: #fff;
+        border-radius: 2px;
+        transition: all 0.3s;
+    }
+    .navbar .navbar-links {
+        display: none;
+    }
+    .navbar .navbar-links.show {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem 2%;
+    }
+    .header {
+        min-height: 60vh;
+        padding: 1rem 0;
+    }
+    .header .box {
+        padding: 0 0.5rem;
+    }
+    h1 { font-size: 1.5rem; }
+}
+
+@keyframes shine
+{
+    0%
+    {
+        -webkit-mask-position: 150%;
+    }
+    100%
+    {
+        -webkit-mask-position: -50%;
+    }
+}

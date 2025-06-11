@@ -1,0 +1,140 @@
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .container {
+    width: 100%;
+}
+
+
+.heading {
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+    padding: 0rem;
+    padding-top: 2rem;
+}
+
+
+section .box {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+.bg-light .heading h2 {
+    color: #000;
+}
+
+.bg-light .title {
+    color: #111;
+}
+
+.bg-light p {
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #111;
+}
+
+.bg-dark .heading h2 {
+    color: #ffff;
+}
+
+.bg-dark .title {
+    color: #fff;
+}
+
+.bg-dark p {
+    color: #aaa;
+}
+
+/* Responsive Email Input */
+.responsive-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .responsive-input {
+      font-size: 0.95rem;
+      padding: 10px;
+      max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .box {
+        text-align: center;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about .box, .about .about-img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .services .container {
+        flex-direction: column;
+    }
+
+    .services .box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .gallery .container {
+        flex-direction: column;
+    }
+
+    .gallery .grid-wrapper {
+        flex-direction: column;
+    }
+
+    .contact .container {
+        flex-direction: column;
+    }
+
+    .contact .box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .box {
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
+    }
+
+}
+

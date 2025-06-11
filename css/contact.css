@@ -1,0 +1,148 @@
+.contact {
+    position: relative;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact ul li {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact ul span {
+    font-size: 16px;
+    color: #333;
+    padding: 0px 4px;
+}
+
+.contact .form-title {
+    font-size: 18px;
+    color: #000;
+}
+
+
+
+.contact .box-r {
+    position: relative;
+}
+
+.contact .box-r .form-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    padding: 2rem 1rem;
+}
+
+.contact .box-r:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #b506066b;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.box-r:after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: -8%;
+    bottom: 55%;
+    left: -5%;
+    background-image: url(./images/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+.contact .form-box h2 {
+    font-size: 22px;
+    color: #fffefe;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.contact .one-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+
+.contact .box-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0rem;
+    border-bottom: 1px solid #fff;
+    border-radius: 1px;
+}
+
+.contact .box-input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.66rem;
+}
+
+.contact .box-input i {
+    color: #ffffff;
+}
+
+.contact .box-input textarea,
+.contact .box-input input {
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.contact .box-input textarea {
+    padding-left: 1rem;
+    margin-top: 0.351rem;
+}
+
+.contact .box-input textarea::placeholder,
+.contact .box-input input::placeholder {
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+
+.btn-send {
+    background-color: #fffefe;
+    color: #0b0b0b;
+    padding: 0.75rem 1rem;
+    border: none;
+}
+
+.contact .container .box .emaill {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.contact .container .box .emaill:hover {
+    color: blue;
+    transform: scale(110%);
+}

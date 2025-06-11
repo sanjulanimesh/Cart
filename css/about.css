@@ -1,0 +1,107 @@
+.about-img {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-img .img:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 45px;
+    bottom: 0;
+    background-color: #2b2b2b;
+}
+.about-img .img:after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: -8%;
+    bottom: 55%;
+    left: -5%;
+    background-image: url(./images/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+.about-img .img {
+    width: 300px;
+    padding: 0 30px 30px 15px;
+    position: relative;
+}
+
+.about-img .img img {
+    position: relative;
+    z-index: 2;
+    background: #1b1b1b;
+    height: 300px;
+}
+
+.about-img img:hover {
+    transform: scale(0.95);
+}
+
+
+.about ul {
+    padding: 1rem 0rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.about ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.about ul li i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #444;
+    color: #fff;
+    font-size: 12px;
+}
+
+.about ul span {
+    color: #333;
+}
+
+.about-bottom {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    border-top: 1px solid #f1f1f1;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.signature {
+    width: 30%;
+    min-width: 180px;
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    
+    }
+    .about-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0.5rem;
+    }
+    .signature {
+        width: 100%;
+    }
+
+    
