@@ -128,23 +128,15 @@ img {
     color: rgb(255, 255, 255);
 
 }
-
 .header {
-    background-image: url(./images/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/header.jpg);
     min-height: 100vh;
     background-color: #111;
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
-
-}
-
-.header {
-    min-height: 100vh;
-    background-color: #111;
     display: flex;
     align-items: center;
-
 }
 
 
