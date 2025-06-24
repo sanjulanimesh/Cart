@@ -78,6 +78,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
+        "Cam_09": {
+            "title": "Sony Alpha a7 IV Mirrorless Digital Camera",
+            "price": "Rs 6500 per Night",
+            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "brand": "sony"
+        },
         "Len_01": {
             "title": "Canon EF 50mm f/1.8 STM Lens",
             "price": "Rs 2000 per Night",
