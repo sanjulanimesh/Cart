@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let dots = [];
 
     const productData = {
-        "Cam_01": {
+        "A7iii": {
             "title": "Sony Alpha a7 III Mirrorless Digital Camera",
             "price": "Rs 4500 per Night",
             "description": "24.2MP Full-Frame Exmor R CMOS Sensor. BIONZ X Image Processor. 693-Point Hybrid AF System. UHD 4K30p Video with HLG & S-Log3 Gammas. 5-Axis SteadyShot INSIDE Stabilization. 10 fps Shooting, ISO 204800. 2.36m-Dot Tru-Finder OLED EVF. 3.0\" 922k-Dot Tilting Touchscreen LCD. Wi-Fi, NFC, Bluetooth, PC Remote. Weather-Sealed Magnesium Alloy Body.",
