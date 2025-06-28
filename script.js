@@ -175,12 +175,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "type": "mobile"
         },
         "Dro_01": {
-            "title": "DJI Mavic Air 2 Fly More Combo",
+            "title": "DJI Air 3s Fly More Combo",
             "price": "Rs 15000 per Night",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_02": {
-            "title": "DJI Air 3S Drone with RC 2 Fly More Combo",
+            "title": "DJI Mini 4 Pro Drone with RC 2 Fly More Combo",
             "price": "Rs 15000 per Night",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
