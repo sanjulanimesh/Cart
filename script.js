@@ -180,8 +180,23 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_02": {
-            "title": "DJI Mini 4 Pro Drone with RC 2 Fly More Combo",
+            "title": "DJI Mini 4 Pro Drone with RC 2 Fly More Plus Combo",
             "price": "Rs 15000 per Night",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+        },
+        "Dro_03": {
+            "title": "DJI Air 2s Fly More Combo",
+            "price": "Rs 12000 per Night",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+        },
+        "Dro_04": {
+            "title": "DJI Mini 3 Drone with RC Fly More Combo",
+            "price": "Rs 12000 per Night",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+        },
+        "Dro_05": {
+            "title": "DJI Mini 2 Drone with Fly More Combo",
+            "price": "Rs 8000 per Night",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
     };
