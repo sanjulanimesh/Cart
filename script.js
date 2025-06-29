@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         "Cam_09": {
             "title": "Sony Alpha a7 IV Mirrorless Digital Camera",
-            "price": "Rs 6500 per Night",
+            "price": "Rs 6000 per Night",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "sony"
         },
@@ -151,14 +151,38 @@ document.addEventListener('DOMContentLoaded', function () {
             "brand": "canon"
         },
         "Fla_01": {
-            "title": "Canon Speedlite 600EX II-RT",
+            "title": "Godox V1 Flash for Sony",
             "price": "Rs 1500 per Night",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
-            "brand": "canon"
+            "brand": "sony"
         },
         "Fla_02": {
             "title": "Godox V1 Flash for Canon",
             "price": "Rs 1500 per Night",
+            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "brand": "canon"
+        },
+        "Fla_03": {
+            "title": "Godox V860 III Flash for Sony",
+            "price": "Rs 1500 per Night",
+            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "brand": "sony"
+        },
+        "Fla_04": {
+            "title": "Godox V860 III Flash for Canon",
+            "price": "Rs 1500 per Night",
+            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "brand": "canon"
+        },
+        "Fla_05": {
+            "title": "Godox TT685 Flash for Sony",
+            "price": "Rs 1000 per Night",
+            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "brand": "sony"
+        },
+        "Fla_05": {
+            "title": "Godox TT685 Flash for Canon",
+            "price": "Rs 1000 per Night",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "canon"
         },
