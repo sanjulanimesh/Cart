@@ -180,12 +180,20 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "sony"
         },
-        "Fla_05": {
+        "Fla_06": {
             "title": "Godox TT685 Flash for Canon",
             "price": "Rs 1000 per Night",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "canon"
         },
+        "Fla_07": {
+            "title": "Godox AD200 TTL Pocket Flash Kit",
+            "price": "Rs 3000 per Night",
+            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "brand": "canon"
+        },
+
+
         "Gim_01": {
             "title": "DJI RSC 2 Gimbal Stabilizer",
             "price": "Rs 5000 per Night",
