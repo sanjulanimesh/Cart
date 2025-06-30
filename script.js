@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Godox AD200 TTL Pocket Flash Kit",
             "price": "Rs 3000 per Night",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
-            "brand": "canon"
+            "brand": "sony and canon"
         },
 
 
