@@ -195,17 +195,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         "Gim_01": {
-            "title": "DJI RSC 2 Gimbal Stabilizer",
-            "price": "Rs 5000 per Night",
-            "description": "The Osmo Pocket 3 Creator Combo from DJI is a comprehensive mobile and studio production kit that includes everything you need to capture stable and smooth motion video and sound. The versatile system includes the DJI Osmo Pocket 3 with accessories, including a wide-angle lens, a battery handle with an integrated rechargeable 950mAh",
+            "title": "DJI RS 4 Gimbal Stabilizer",
+            "price": "Rs 4000 per Night",
+            "description": "The DJI RS 4 Gimbal Stabilizer is designed for professional filmmakers and content creators, offering advanced stabilization features and a robust build. It supports a wide range of cameras and lenses, making it a versatile choice for any shooting scenario.",
             "type": "video"
         },
         "Gim_02": {
-            "title": "DJI OM 5 Smartphone Gimbal (Athens Gray)",
-            "price": "Rs 1500 per Night",
+            "title": "DJI RS 3 Gimbal Stabilizer",
+            "price": "Rs 3500 per Night",
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
-            "type": "mobile"
+            "type": "video"
         },
+
+        "Gim_03": {
+            "title": "DJI RSC 2 Gimbal Stabilizer",
+            "price": "Rs 3500 per Night",
+            "description": "The DJI RSC 2 Gimbal Stabilizer is designed for professional filmmakers and content creators, offering advanced stabilization features and a robust build. It supports a wide range of cameras and lenses, making it a versatile choice for any shooting scenario.",
+            "type": "video"
+        },
+        "Gim_04": {
+            "title": "DJI OSMO 6 Mobile Gimbal Stabilizer",
+            "price": "Rs 2000 per Night",
+            "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
+            "type": "video"
+        },
+
+
+
         "Dro_01": {
             "title": "DJI Air 3s Fly More Combo",
             "price": "Rs 15000 per Night",
