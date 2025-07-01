@@ -219,6 +219,13 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
             "type": "video"
         },
+        "Gim_05": {
+            "title": "AOCHUAN Smart X2 Smartphone Mobile Gimbal",
+            "price": "Rs 1500 per Night",
+            "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
+            "type": "video"
+        },
+
 
 
 
