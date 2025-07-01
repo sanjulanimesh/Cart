@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let dots = [];
 
     const productData = {
-        "A7iii": {
+        "Cam_01": {
             "title": "Sony Alpha a7 III Mirrorless Digital Camera",
             "price": "Rs 4500 per day",
             "description": "24.2MP Full-Frame Exmor R CMOS Sensor. BIONZ X Image Processor. 693-Point Hybrid AF System. UHD 4K30p Video with HLG & S-Log3 Gammas. 5-Axis SteadyShot INSIDE Stabilization. 10 fps Shooting, ISO 204800. 2.36m-Dot Tru-Finder OLED EVF. 3.0\" 922k-Dot Tilting Touchscreen LCD. Wi-Fi, NFC, Bluetooth, PC Remote. Weather-Sealed Magnesium Alloy Body.",
@@ -75,6 +75,12 @@ document.addEventListener('DOMContentLoaded', function () {
         "Cam_03": {
             "title": "Canon EOS R6 Mark II Mirrorless Camera",
             "price": "Rs 6000 per day",
+            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "brand": "canon"
+        },
+        "Cam_04": {
+            "title": "Canon EOS 6D Mark II Mirrorless Camera",
+            "price": "Rs 3500 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
@@ -226,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 
 
-        
+
         "Act_01": {
             "title": "DJI Osmo Pocket 3 Creator Combo",
             "price": "Rs 4500 per day",
