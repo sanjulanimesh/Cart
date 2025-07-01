@@ -62,133 +62,133 @@ document.addEventListener('DOMContentLoaded', function () {
     const productData = {
         "A7iii": {
             "title": "Sony Alpha a7 III Mirrorless Digital Camera",
-            "price": "Rs 4500 per Night",
+            "price": "Rs 4500 per day",
             "description": "24.2MP Full-Frame Exmor R CMOS Sensor. BIONZ X Image Processor. 693-Point Hybrid AF System. UHD 4K30p Video with HLG & S-Log3 Gammas. 5-Axis SteadyShot INSIDE Stabilization. 10 fps Shooting, ISO 204800. 2.36m-Dot Tru-Finder OLED EVF. 3.0\" 922k-Dot Tilting Touchscreen LCD. Wi-Fi, NFC, Bluetooth, PC Remote. Weather-Sealed Magnesium Alloy Body.",
             "brand": "sony"
         },
         "Cam_02": {
             "title": "Canon EOS 80D DSLR Camera",
-            "price": "Rs 3000 per Night",
+            "price": "Rs 3000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
         "Cam_03": {
             "title": "Canon EOS R6 Mark II Mirrorless Camera",
-            "price": "Rs 6000 per Night",
+            "price": "Rs 6000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
         "Cam_09": {
             "title": "Sony Alpha a7 IV Mirrorless Digital Camera",
-            "price": "Rs 6000 per Night",
+            "price": "Rs 6000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "sony"
         },
         "Cam_05": {
             "title": "Canon EOS 6D DSLR Camera",
-            "price": "Rs 3000 per Night",
+            "price": "Rs 3000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
         "Cam_06": {
             "title": "Nikon EOS D750 DSLR Camera",
-            "price": "Rs 3000 per Night",
+            "price": "Rs 3000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "nikon"
         },
         "Cam_07": {
             "title": "Nikon Z7 II Camera",
-            "price": "Rs 6500 per Night",
+            "price": "Rs 6500 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "nikon"
         },
         "Cam_08": {
             "title": "Nikon Z6 II Camera",
-            "price": "Rs 5000 per Night",
+            "price": "Rs 5000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "nikon"
         },
         "Cam_10": {
             "title": "Nikon D5300 Camera",
-            "price": "Rs 2500 per Night",
+            "price": "Rs 2500 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "nikon"
         },
         "Len_01": {
             "title": "Canon EF 50mm f/1.8 STM Lens",
-            "price": "Rs 2000 per Night",
+            "price": "Rs 2000 per day",
             "description": "EF-Mount Lens/Full-Frame Format. Aperture Range: f/1.8 to f/22. Super Spectra Coating. STM Stepping AF Motor. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 1.15'. 40° Angle of View. 49mm Filter Thread. Weighs 5.6 oz.",
             "brand": "canon"
         },
         "Len_02": {
             "title": "Canon EF-S 55-250mm f/4-5.6 IS STM Lens",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
         "Len_03": {
             "title": "Sigma 150-600mm f/5-6.3 DG OS HSM Sports Lens for Nikon F",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
          "Len_04": {
             "title": "Sirui Aurora 85mm f/1.4 Lens (Sony E) with Free Sirui 67mm UV Filter & Black Mist Filter",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
          "Len_05": {
             "title": "Sony E 55-210mm f/4.5-6.3 OSS Lens (Black)",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
          "Len_06": {
             "title": "Canon RF-S 55-210mm f/5-7.1 IS STM Lens (Canon RF)",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
         "Fla_01": {
             "title": "Godox V1 Flash for Sony",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "sony"
         },
         "Fla_02": {
             "title": "Godox V1 Flash for Canon",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "canon"
         },
         "Fla_03": {
             "title": "Godox V860 III Flash for Sony",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "sony"
         },
         "Fla_04": {
             "title": "Godox V860 III Flash for Canon",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "canon"
         },
         "Fla_05": {
             "title": "Godox TT685 Flash for Sony",
-            "price": "Rs 1000 per Night",
+            "price": "Rs 1000 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "sony"
         },
         "Fla_06": {
             "title": "Godox TT685 Flash for Canon",
-            "price": "Rs 1000 per Night",
+            "price": "Rs 1000 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "canon"
         },
         "Fla_07": {
             "title": "Godox AD200 TTL Pocket Flash Kit",
-            "price": "Rs 3000 per Night",
+            "price": "Rs 3000 per day",
             "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
             "brand": "sony and canon"
         },
@@ -196,34 +196,65 @@ document.addEventListener('DOMContentLoaded', function () {
 
         "Gim_01": {
             "title": "DJI RS 4 Gimbal Stabilizer",
-            "price": "Rs 4000 per Night",
+            "price": "Rs 4000 per day",
             "description": "The DJI RS 4 Gimbal Stabilizer is designed for professional filmmakers and content creators, offering advanced stabilization features and a robust build. It supports a wide range of cameras and lenses, making it a versatile choice for any shooting scenario.",
             "type": "video"
         },
         "Gim_02": {
             "title": "DJI RS 3 Gimbal Stabilizer",
-            "price": "Rs 3500 per Night",
+            "price": "Rs 3500 per day",
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
             "type": "video"
         },
 
         "Gim_03": {
             "title": "DJI RSC 2 Gimbal Stabilizer",
-            "price": "Rs 3500 per Night",
+            "price": "Rs 3500 per day",
             "description": "The DJI RSC 2 Gimbal Stabilizer is designed for professional filmmakers and content creators, offering advanced stabilization features and a robust build. It supports a wide range of cameras and lenses, making it a versatile choice for any shooting scenario.",
             "type": "video"
         },
         "Gim_04": {
             "title": "DJI OSMO 6 Mobile Gimbal Stabilizer",
-            "price": "Rs 2000 per Night",
+            "price": "Rs 2000 per day",
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
             "type": "video"
         },
         "Gim_05": {
             "title": "AOCHUAN Smart X2 Smartphone Mobile Gimbal",
-            "price": "Rs 1500 per Night",
+            "price": "Rs 1500 per day",
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
             "type": "video"
+        },
+
+        "Act_01": {
+            "title": "DJI Osmo Pocket 3 Creator Combo",
+            "price": "Rs 4500 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "type": "action camera"
+        },
+        "Act_02": {
+            "title": "Gopro HERO 13",
+            "price": "Rs 3000 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "type": "action camera"
+        },
+        "Act_03": {
+            "title": "Gopro HERO 12",
+            "price": "Rs 2500 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "type": "action camera"
+        },
+        "Act_04": {
+            "title": "Gopro HERO 9",
+            "price": "Rs 2000 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "type": "action camera"
+        },
+        "Act_04": {
+            "title": "Insta 360 ",
+            "price": "Rs 3000 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "type": "action camera"
         },
 
 
@@ -231,27 +262,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
         "Dro_01": {
             "title": "DJI Air 3s Fly More Combo",
-            "price": "Rs 15000 per Night",
+            "price": "Rs 15000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_02": {
             "title": "DJI Mini 4 Pro Drone with RC 2 Fly More Plus Combo",
-            "price": "Rs 15000 per Night",
+            "price": "Rs 15000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_03": {
             "title": "DJI Air 2s Fly More Combo",
-            "price": "Rs 12000 per Night",
+            "price": "Rs 12000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_04": {
             "title": "DJI Mini 3 Drone with RC Fly More Combo",
-            "price": "Rs 12000 per Night",
+            "price": "Rs 12000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
         "Dro_05": {
             "title": "DJI Mini 2 Drone with Fly More Combo",
-            "price": "Rs 8000 per Night",
+            "price": "Rs 8000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
     };
