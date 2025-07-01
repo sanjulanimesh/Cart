@@ -206,7 +206,6 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
             "type": "video"
         },
-
         "Gim_03": {
             "title": "DJI RSC 2 Gimbal Stabilizer",
             "price": "Rs 3500 per day",
@@ -226,6 +225,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "type": "video"
         },
 
+
+        
         "Act_01": {
             "title": "DJI Osmo Pocket 3 Creator Combo",
             "price": "Rs 4500 per day",
@@ -250,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
             "type": "action camera"
         },
-        "Act_04": {
+        "Act_05": {
             "title": "Insta 360 ",
             "price": "Rs 3000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
