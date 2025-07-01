@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         "Cam_04": {
             "title": "Canon EOS 6D Mark II Mirrorless Camera",
-            "price": "Rs 3500 per day",
+            "price": "Rs 4000 per day",
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "canon"
         },
