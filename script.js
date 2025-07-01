@@ -121,41 +121,50 @@ document.addEventListener('DOMContentLoaded', function () {
             "brand": "nikon"
         },
         "Len_01": {
-            "title": "Canon EF 50mm f/1.8 STM Lens",
+            "title": "Sigma 16-28mm f/2.8 DG DN Lens Sony E",
             "price": "Rs 2000 per day",
             "description": "EF-Mount Lens/Full-Frame Format. Aperture Range: f/1.8 to f/22. Super Spectra Coating. STM Stepping AF Motor. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 1.15'. 40° Angle of View. 49mm Filter Thread. Weighs 5.6 oz.",
-            "brand": "canon"
+            "brand": "sony"
         },
         "Len_02": {
-            "title": "Canon EF-S 55-250mm f/4-5.6 IS STM Lens",
+            "title": "Sony FE 16-35mm f/2.8 GM II Lens Sony E",
             "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "brand": "sony"
         },
         "Len_03": {
-            "title": "Sigma 150-600mm f/5-6.3 DG OS HSM Sports Lens for Nikon F",
-            "price": "Rs 1500 per day",
+            "title": "Sigma 35mm f/1.4 DG DN Art Lens for Sony E",
+            "price": "Rs 2500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "brand": "sony"
         },
          "Len_04": {
-            "title": "Sirui Aurora 85mm f/1.4 Lens (Sony E) with Free Sirui 67mm UV Filter & Black Mist Filter",
-            "price": "Rs 1500 per day",
+            "title": "Sigma 50mm f/1.4 DG DN Art Lens for Sony E",
+            "price": "Rs 2500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "brand": "sony"
         },
          "Len_05": {
-            "title": "Sony E 55-210mm f/4.5-6.3 OSS Lens (Black)",
-            "price": "Rs 1500 per day",
+            "title": "Sigma 85mm f/1.4 DG DN Art Lens for Sony E",
+            "price": "Rs 2500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "brand": "sony"
         },
          "Len_06": {
-            "title": "Canon RF-S 55-210mm f/5-7.1 IS STM Lens (Canon RF)",
+            "title": "Sony FE 50mm f/1.8 Lens",
             "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "brand": "sony"
         },
+         "Len_07": {
+            "title": "Sony FE 28-70mm f/3.5-5.6 OSS Lens",
+            "price": "Rs 1500 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "sony"
+        },
+
+
+        
         "Fla_01": {
             "title": "Godox V1 Flash for Sony",
             "price": "Rs 1500 per day",
