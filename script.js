@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function () {
     prevButton.addEventListener('click', prevSlide);
     nextButton.addEventListener('click', nextSlide);
 
-    document.querySelectorAll('.call-button').forEach(button => {
+    document.querySelectorAll('.call-button,.call-buttonn').forEach(button => {
         button.addEventListener('click', function (e) {
             e.preventDefault();
             const productCard = this.closest('.product-card');

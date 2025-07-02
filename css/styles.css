@@ -256,7 +256,18 @@ nav {
     transition: background-color 0.3s;
     margin-top: auto;
 }
-
+.call-buttonn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: auto;
+}
 .call-button:hover {
     background-color: #b0080f;
 }
@@ -594,7 +605,7 @@ nav {
 }
 
 .social-icon:hover {
-    background-color: #d10a11;
+    background-color: #ffffff;
     color: #fff;
     transform: translateY(-3px);
 }
