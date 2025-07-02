@@ -189,6 +189,25 @@ document.addEventListener('DOMContentLoaded', function () {
             "brand": "sony"
         },
 
+        "Len_12": {
+            "title": "Canon EF 50mm f/1.8 STM Lens",
+            "price": "Rs 1000 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_13": {
+            "title": "Canon EF-S 18-55mm f/3.5 APS-C Format Lens",
+            "price": "Rs 1000 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_14": {
+            "title": "Canon EF-S 18-55mm f/3.5 APS-C Format Lens",
+            "price": "Rs 1000 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+
 
 
 
