@@ -203,19 +203,43 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         "Len_14": {
             "title": "Canon EF 24-105mm f/4L IS II USM Lens",
-            "price": "Rs 1000 per day",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
         "Len_15": {
             "title": "Canon EF 75-300mm f/4-5.6 III Lens",
-            "price": "Rs 1000 per day",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
         "Len_16": {
-            "title": " ",
-            "price": "Rs 1000 per day",
+            "title": "Canon EF-S 24mm f/2.8 STM Lens",
+            "price": "Rs 1500 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_17": {
+            "title": "",
+            "price": "Rs 1500 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_18": {
+            "title": "",
+            "price": "Rs 1500 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_19": {
+            "title": "",
+            "price": "Rs 1500 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_20": {
+            "title": "",
+            "price": "Rs 1500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
