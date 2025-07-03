@@ -238,8 +238,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "brand": "canon"
         },
         "Len_20": {
-            "title": "",
-            "price": "Rs 1500 per day",
+            "title": "Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Canon EF",
+            "price": "Rs 3500 per day",
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
