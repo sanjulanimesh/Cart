@@ -297,6 +297,24 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "nikon"
         },
+        "Len_30": {
+            "title": "Nikon AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Lens",
+            "price": "Rs 1000 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
+        "Len_31": {
+            "title": "Sigma 70-200mm f/2.8 DG OS HSM Sports Lens for Nikon F",
+            "price": "Rs 3000 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
+        "Len_32": {
+            "title": "Sigma 70-200mm f/2.8 DG OS HSM Sports Lens for Canon EF",
+            "price": "Rs 3000 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
 
         
 
