@@ -243,6 +243,30 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
+        "Len_21": {
+            "title": "Sigma 150-600mm f/5-6.3 DG OS HSM Lens for Canon EF",
+            "price": "Rs 5000 per day",
+            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_22": {
+            "title": "Sony FE 200-600mm f/5.6-6.3 G OSS Lens",
+            "price": "Rs 5000 per day",
+            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_23": {
+            "title": "Canon RF 800mm f/11 IS STM Lens",
+            "price": "Rs 4000 per day",
+            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_24": {
+            "title": "Tamron SP 150-600mm f/5-6.3 Di VC USD G2 for Nikon F",
+            "price": "Rs 4500 per day",
+            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
 
 
 
@@ -334,12 +358,6 @@ document.addEventListener('DOMContentLoaded', function () {
         "Act_02": {
             "title": "Gopro HERO 13",
             "price": "Rs 3000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
-            "type": "action camera"
-        },
-        "Act_03": {
-            "title": "Gopro HERO 12",
-            "price": "Rs 2500 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
             "type": "action camera"
         },
