@@ -120,6 +120,15 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
             "brand": "nikon"
         },
+        "Cam_11": {
+            "title": "EOS 200D Mark II DSLR Camera",
+            "price": "Rs 3500 per day",
+            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "brand": "nikon"
+        },
+
+
+
         "Len_01": {
             "title": "Sigma 16-28mm f/2.8 DG DN Lens Sony E",
             "price": "Rs 2000 per day",
@@ -469,6 +478,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 2000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         }
+
     };
 
     function initSlideshow(images) {
