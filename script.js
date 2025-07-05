@@ -267,10 +267,38 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
             "brand": "canon"
         },
+        "Len_25": {
+            "title": "Nikon AF-P NIKKOR 70-300mm ED VR Lens",
+            "price": "Rs 4500 per day",
+            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_26": {
+            "title": "Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Nikon F",
+            "price": "Rs 4500 per day",
+            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "canon"
+        },
+        "Len_27": {
+            "title": "Sigma 35mm f/1.4 DG HSM Art Lens for Nikon F",
+            "price": "Rs 2500 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
+        "Len_28": {
+            "title": "Sigma 50mm f/1.4 DG HSM Art Lens for Nikon F",
+            "price": "Rs 2500 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
+        "Len_29": {
+            "title": "Sigma 85mm f/1.4 DG HSM Art Lens for Nikon F",
+            "price": "Rs 2500 per day",
+            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "brand": "nikon"
+        },
 
-
-
-
+        
 
         "Fla_01": {
             "title": "Godox V1 Flash for Sony",
