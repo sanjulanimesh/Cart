@@ -483,7 +483,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 4000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
         },
-
+        "Tri_01": {
+            "title": "Yunteng Fluid Head Video Tripod",
+            "price": "Rs 1000 per day",
+            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems."
+        },    
     };
 
     function initSlideshow(images) {
