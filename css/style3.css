@@ -288,6 +288,26 @@ section .box {
         text-align: left;
         margin: 0;
     }
+}   
 
+
+@media (max-width: 480px) {
+    .footer-column {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo-section {
+        text-align: center;
+    }
+
+    .footer-logo-section p {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
-
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+}
