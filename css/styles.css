@@ -40,6 +40,7 @@ nav {
     -webkit-mask-size: 180%;
     animation: shine 2s linear infinite;
     box-shadow: #ffffff;
+    
 }
 
 .mobile-menu-toggle {
@@ -133,7 +134,7 @@ nav {
 
 .filters-header h3 {
     font-size: 16px;
-    color: #d10a11;
+    color: #d90303;
 }
 
 .close-filters {
