@@ -63,68 +63,68 @@ document.addEventListener('DOMContentLoaded', function () {
         "Cam_01": {
             "title": "Sony Alpha a7 III Mirrorless Digital Camera",
             "price": "Rs 4500 per day",
-            "description": "24.2MP Full-Frame Exmor R CMOS Sensor. BIONZ X Image Processor. 693-Point Hybrid AF System. UHD 4K30p Video with HLG & S-Log3 Gammas. 5-Axis SteadyShot INSIDE Stabilization. 10 fps Shooting, ISO 204800. 2.36m-Dot Tru-Finder OLED EVF. 3.0\" 922k-Dot Tilting Touchscreen LCD. Wi-Fi, NFC, Bluetooth, PC Remote. Weather-Sealed Magnesium Alloy Body.",
+            "description": "Sony Alpha a7 III is a full-frame mirrorless camera featuring a 24.2MP sensor, 4K video recording, and fast autofocus. Perfect for professional photographers and videographers seeking exceptional image quality and performance.",
             "brand": "sony"
         },
         "Cam_02": {
             "title": "Canon EOS 80D DSLR Camera",
             "price": "Rs 3000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Canon EOS 80D is a versatile DSLR featuring a 24.2MP sensor, 45-point autofocus, Full HD 60 fps video, vari-angle touchscreen, and built-in Wi-Fi for everyday shooting.",
             "brand": "canon"
         },
         "Cam_03": {
             "title": "Canon EOS R6 Mark II Mirrorless Camera",
             "price": "Rs 6000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Canon EOS R6 Mark II mirrorless camera offers 24.2MP image quality, fast autofocus, and Full HD 60 fps video. Designed for high-performance photography and smooth video capture.",
             "brand": "canon"
         },
         "Cam_04": {
             "title": "Canon EOS 6D Mark II Mirrorless Camera",
             "price": "Rs 4000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Canon EOS 6D Mark II is a reliable DSLR with 24.2MP sensor, vari-angle touchscreen, Dual Pixel autofocus, and Full HD 60 fps video, great for portraits and landscapes.",
             "brand": "canon"
         },
         "Cam_09": {
             "title": "Sony Alpha a7 IV Mirrorless Digital Camera",
             "price": "Rs 6000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Sony Alpha a7 IV mirrorless camera features a 24.2MP sensor, advanced autofocus, and 4K video capability, perfect for capturing high-quality photos and cinematic videos.",
             "brand": "sony"
         },
         "Cam_05": {
             "title": "Canon EOS 6D DSLR Camera",
             "price": "Rs 3000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Canon EOS 6D DSLR camera offers a 24.2MP sensor, Dual Pixel autofocus, and Full HD video recording, perfect for photography enthusiasts looking for sharp images and creative flexibility.",
             "brand": "canon"
         },
         "Cam_06": {
             "title": "Nikon EOS D750 DSLR Camera",
             "price": "Rs 3000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Nikon D750 DSLR combines a 24.2MP sensor with fast autofocus and Full HD video at 60 fps. Its vari-angle touchscreen and wireless features make it great for creators.",
             "brand": "nikon"
         },
         "Cam_07": {
             "title": "Nikon Z7 II Camera",
             "price": "Rs 6500 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Nikon Z7 II is a powerful mirrorless camera featuring a 24.2MP sensor, fast autofocus, and stunning Full HD video capabilities, ideal for professional photography and filmmaking.",
             "brand": "nikon"
         },
         "Cam_08": {
             "title": "Nikon Z6 II Camera",
             "price": "Rs 5000 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Nikon Z6 II mirrorless camera boasts a 24.2MP sensor, fast autofocus, and Full HD 60 fps video, offering smooth performance and high-quality image output for versatile shooters.",
             "brand": "nikon"
         },
         "Cam_10": {
             "title": "Nikon D5300 Camera",
             "price": "Rs 2500 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
+            "description": "Nikon D5300 DSLR offers 24.2MP image resolution, vari-angle touchscreen, and Full HD 60 fps video, designed for entry-level photographers seeking creativity and clarity.",
             "brand": "nikon"
         },
         "Cam_11": {
             "title": "EOS 200D Mark II DSLR Camera",
             "price": "Rs 3500 per day",
-            "description": "24.2MP APS-C CMOS Sensor. DIGIC 6 Image Processor. 3.0\" 1.04m-Dot Vari-Angle Touchscreen. Full HD 1080p Video Recording at 60 fps. 45-Point All Cross-Type AF System. Dual Pixel CMOS AF. ISO 100-16000, Up to 7 fps Shooting. Built-In Wi-Fi with NFC. Scene Intelligent Auto Mode. EF-S 18-135mm f/3.5-5.6 IS USM Lens.",
-            "brand": "nikon"
+            "description": "Canon EOS 200D Mark II is a compact DSLR with a 24.2MP sensor, fast Dual Pixel autofocus, and Full HD 60 fps video, perfect for vloggers and beginners.",
+            "brand": "canon"
         },
 
 
@@ -132,197 +132,197 @@ document.addEventListener('DOMContentLoaded', function () {
         "Len_01": {
             "title": "Sigma 16-28mm f/2.8 DG DN Lens Sony E",
             "price": "Rs 2000 per day",
-            "description": "EF-Mount Lens/Full-Frame Format. Aperture Range: f/1.8 to f/22. Super Spectra Coating. STM Stepping AF Motor. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 1.15'. 40° Angle of View. 49mm Filter Thread. Weighs 5.6 oz.",
+            "description": "Sigma 16-28mm f/2.8 lens for Sony E mount offers a wide-angle view, sharp optics, and a bright aperture ideal for landscapes, architecture, and creative low-light shots.",
             "brand": "sony"
         },
         "Len_02": {
             "title": "Sony FE 16-35mm f/2.8 GM II Lens Sony E",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sony FE 16-35mm f/2.8 GM II delivers wide-angle versatility with sharp clarity, great for landscapes and interiors. Its bright aperture and optical stabilization enhance image quality.",
             "brand": "sony"
         },
         "Len_03": {
             "title": "Sigma 35mm f/1.4 DG DN Art Lens for Sony E",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 35mm f/1.4 DG DN Art lens offers sharp focus and a wide aperture for beautiful portraits and low-light photography, compatible with Sony E-mount cameras.",
             "brand": "sony"
         },
          "Len_04": {
             "title": "Sigma 50mm f/1.4 DG DN Art Lens for Sony E",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 50mm f/1.4 DG DN Art lens is ideal for portraits, offering stunning bokeh, sharp image quality, and a bright aperture for professional Sony E-mount photography.",
             "brand": "sony"
         },
          "Len_05": {
             "title": "Sigma 85mm f/1.4 DG DN Art Lens for Sony E",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 85mm f/1.4 DG DN Art lens provides beautiful background blur, ideal for portraits and close-ups. It delivers sharp results even in low-light conditions on Sony cameras.",
             "brand": "sony"
         },
          "Len_06": {
             "title": "Sony FE 50mm f/1.8 Lens",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sony FE 50mm f/1.8 lens offers a lightweight design, smooth autofocus, and a bright aperture for beautiful portraits and everyday photography on Sony E-mount cameras.",
             "brand": "sony"
         },
          "Len_07": {
             "title": "Sony FE 28-70mm f/3.5-5.6 OSS Lens",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sony FE 28-70mm f/3.5-5.6 OSS lens provides versatile zoom, steady images with OSS stabilization, and sharp results for both everyday shooting and travel photography.",
             "brand": "sony"
         },
 
          "Len_08": {
             "title": "Sigma 24-70mm f/2.8 DG DN Art Lens for Sony E",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 24-70mm f/2.8 DG DN Art lens delivers professional zoom performance, fast aperture, and sharp image quality, making it a perfect all-purpose lens for Sony E-mount.",
             "brand": "sony"
         },
          "Len_09": {
             "title": "Sony FE 24-70mm f/2.8 GM II Lens",
             "price": "Rs 5000 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sony FE 24-70mm f/2.8 GM II lens is a premium zoom for Sony E-mount with stunning sharpness, fast autofocus, and wide aperture for versatile photography and video.",
             "brand": "sony"
         },
 
          "Len_10": {
             "title": "Sigma 70-200mm f/2.8 DG DN OS Sports Lens Sony E",
             "price": "Rs 4000 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 70-200mm f/2.8 DG DN OS Sports lens offers sharp telephoto reach, fast autofocus, and stabilization, ideal for sports, wildlife, and event photography with Sony E-mount.",
             "brand": "sony"
         },
          "Len_11": {
             "title": "Sony FE 24-105mm f/4 G OSS Lens",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sony FE 24-105mm f/4 G OSS lens delivers versatile zoom, sharp images, and built-in stabilization, making it ideal for travel, portraits, and video shooting on Sony cameras.",
             "brand": "sony"
         },
 
         "Len_12": {
             "title": "Canon EF 50mm f/1.8 STM Lens",
             "price": "Rs 1000 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon EF 50mm f/1.8 STM lens is compact and lightweight, offering beautiful background blur and sharp image quality, perfect for portraits and street photography on Canon cameras.",
             "brand": "canon"
         },
         "Len_13": {
             "title": "Canon EF-S 18-55mm f/3.5 APS-C Format Lens",
             "price": "Rs 1000 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon EF-S 18-55mm f/3.5 lens is a versatile kit zoom lens with a wide-to-standard focal range, great for everyday photography, landscapes, and casual video shooting.",
             "brand": "canon"
         },
         "Len_14": {
             "title": "Canon EF 24-105mm f/4L IS II USM Lens",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon EF 24-105mm f/4L IS II USM lens is a high-quality zoom with sharp optics and image stabilization, perfect for versatile shooting from wide-angle to mid-telephoto.",
             "brand": "canon"
         },
         "Len_15": {
             "title": "Canon EF 75-300mm f/4-5.6 III Lens",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon EF 75-300mm f/4-5.6 III lens provides a telephoto zoom range suitable for wildlife and sports photography, delivering crisp images at a budget-friendly price.",
             "brand": "canon"
         },
         "Len_16": {
             "title": "Canon EF-S 24mm f/2.8 STM Lens",
             "price": "Rs 1500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon EF-S 24mm f/2.8 STM lens is an ultra-slim wide-angle prime, great for travel and street photography, offering sharp images and a bright aperture for low-light use.",
             "brand": "canon"
         },
         "Len_17": {
             "title": "Sigma 35mm f/1.4 DG HSM Art Lens for Canon EF",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 35mm f/1.4 DG HSM Art lens for Canon EF mount provides sharp wide-angle results, ideal for portraits and creative shots in low light with beautiful bokeh.",
             "brand": "canon"
         },
         "Len_18": {
             "title": "Sigma 50mm f/1.4 DG HSM Art Lens for Canon EF",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 50mm f/1.4 DG HSM Art lens for Canon EF offers sharp detail and beautiful background blur, perfect for portrait photography and low-light shooting situations.",
             "brand": "canon"
         },
         "Len_19": {
             "title": "Sigma 85mm f/1.4 DG HSM Art Lens for Canon EF",
             "price": "Rs 2500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 85mm f/1.4 DG HSM Art lens for Canon EF delivers creamy bokeh and sharp portrait results, making it a top choice for professional portraiture.",
             "brand": "canon"
         },
         "Len_20": {
             "title": "Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Canon EF",
             "price": "Rs 3500 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 24-70mm f/2.8 DG OS HSM Art lens for Canon EF is a professional zoom offering sharp optics, a fast aperture, and versatile shooting from wide to medium telephoto.",
             "brand": "canon"
         },
         "Len_21": {
             "title": "Sigma 150-600mm f/5-6.3 DG OS HSM Lens for Canon EF",
             "price": "Rs 5000 per day",
-            "description": "EF-S-Mount Lens/APS-C Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 150-600mm f/5-6.3 DG OS HSM lens for Canon EF offers extreme telephoto reach with stabilization, ideal for wildlife and sports, delivering sharp and steady images.",
             "brand": "canon"
         },
         "Len_22": {
             "title": "Sony FE 200-600mm f/5.6-6.3 G OSS Lens",
             "price": "Rs 5000 per day",
-            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "description": "Sony FE 200-600mm f/5.6-6.3 G OSS lens provides powerful zoom reach for wildlife and sports, with sharp image quality and optical stabilization for steady handheld shooting.",
+            "brand": "sony"
         },
         "Len_23": {
             "title": "Canon RF 800mm f/11 IS STM Lens",
             "price": "Rs 4000 per day",
-            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Canon RF 800mm f/11 IS STM lens is a lightweight super-telephoto option perfect for wildlife photography, featuring image stabilization and quiet autofocus for distant subjects.",
             "brand": "canon"
         },
         "Len_24": {
             "title": "Tamron SP 150-600mm f/5-6.3 Di VC USD G2 for Nikon F",
             "price": "Rs 4500 per day",
-            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "description": "Tamron SP 150-600mm f/5-6.3 G2 for Nikon F mount offers long telephoto reach with sharp optics and stabilization, making it ideal for wildlife and sports photographers.",
+            "brand": "nikon"
         },
         "Len_25": {
             "title": "Nikon AF-P NIKKOR 70-300mm ED VR Lens",
             "price": "Rs 4500 per day",
-            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Nikon AF-P NIKKOR 70-300mm ED VR lens is a compact telephoto zoom with vibration reduction, perfect for capturing distant subjects like wildlife and sports.",
             "brand": "canon"
         },
         "Len_26": {
             "title": "Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Nikon F",
             "price": "Rs 4500 per day",
-            "description": " Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "canon"
+            "description": "Sigma 24-70mm f/2.8 DG OS HSM Art lens for Nikon F offers pro-grade zoom, sharp detail, and a fast aperture for versatility in portraits, events, and landscapes.",
+            "brand": "nikon"
         },
         "Len_27": {
             "title": "Sigma 35mm f/1.4 DG HSM Art Lens for Nikon F",
             "price": "Rs 2500 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 35mm f/1.4 DG HSM Art lens for Nikon F delivers sharp wide-angle performance and beautiful bokeh, ideal for portraits and low-light photography.",
             "brand": "nikon"
         },
         "Len_28": {
             "title": "Sigma 50mm f/1.4 DG HSM Art Lens for Nikon F",
             "price": "Rs 2500 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 50mm f/1.4 DG HSM Art lens for Nikon F offers a bright aperture and crisp optics, ideal for portraits, weddings, and low-light shooting.",
             "brand": "nikon"
         },
         "Len_29": {
             "title": "Sigma 85mm f/1.4 DG HSM Art Lens for Nikon F",
             "price": "Rs 2500 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 85mm f/1.4 DG HSM Art lens for Nikon F mount creates stunning portrait shots with sharp detail and beautiful, creamy background blur.",
             "brand": "nikon"
         },
         "Len_30": {
             "title": "Nikon AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Lens",
             "price": "Rs 1000 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Nikon AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR is a versatile zoom lens, ideal for beginners, offering image stabilization and crisp results for everyday photography.",
             "brand": "nikon"
         },
         "Len_31": {
             "title": "Sigma 70-200mm f/2.8 DG OS HSM Sports Lens for Nikon F",
             "price": "Rs 3000 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
+            "description": "Sigma 70-200mm f/2.8 DG OS HSM Sports lens for Nikon F is a fast telephoto zoom with optical stabilization, ideal for action, wildlife, and event photography.",
             "brand": "nikon"
         },
         "Len_32": {
             "title": "Sigma 70-200mm f/2.8 DG OS HSM Sports Lens for Canon EF",
             "price": "Rs 3000 per day",
-            "description": "Format. 88-400mm (35mm Equivalent). Aperture Range: f/4 to f/32. Ultra-Low Dispersion Element. Super Spectra Coating. STM Stepping AF Motor. Optical Image Stabilizer. Rounded 7-Blade Diaphragm. Minimum Focus Distance: 2.8'. 58mm Filter Thread.",
-            "brand": "nikon"
+            "description": "Sigma 70-200mm f/2.8 DG OS HSM Sports lens for Canon EF mount offers sharp telephoto performance, image stabilization, and fast autofocus for professional sports and wildlife shots.",
+            "brand": "canon"
         },
 
         
@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "Fla_07": {
             "title": "Godox AD200 TTL Pocket Flash Kit",
             "price": "Rs 3000 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Guide Number: 197' at ISOA full-frame mirrorless camera featuring a 24.2MP sensor, 4K video recording, and fast autofocus. Perfect for professional photographers and videographers seeking exceptional image quality and performance. 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batterie.",
             "brand": "sony and canon"
         },
 
