@@ -487,7 +487,22 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Yunteng Fluid Head Video Tripod",
             "price": "Rs 1000 per day",
             "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems."
-        },    
+        },
+        "Mic_01": {
+            "title": "DJI Mic 2 Digital Wireless Microphone",
+            "price": "Rs 3000 per day",
+            "description": "Compact dual-channel wireless mic with crystal-clear audio, touchscreen interface, up to 250m range, and 14-hour onboard recording. Ideal for pro content creators and interviews in any setting."
+        },
+        "Mic_02": {
+            "title": "Rode Wireless GO II Dual Channel Wireless Microphone",
+            "price": "Rs 2500 per day",
+            "description": "Dual transmitter system with internal recording, up to 200m range, USB-C and 3.5mm output. Perfect for vlogging, podcasting, or two-person interviews with professional-grade sound."
+        },
+        "Mic_03": {
+            "title": "BOYA Dual-Channel Wireless",
+            "price": "Rs 2000 per day",
+            "description": "Affordable dual wireless mic system with omnidirectional lavaliers, up to 100m range, real-time monitoring, and clear audio quality—great for beginner creators, events, and mobile video shoots."
+        }
     };
 
     function initSlideshow(images) {
