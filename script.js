@@ -330,43 +330,43 @@ document.addEventListener('DOMContentLoaded', function () {
         "Fla_01": {
             "title": "Godox V1 Flash for Sony",
             "price": "Rs 1500 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Professional round-head flash providing soft, even lighting. Supports TTL, HSS, and wireless triggering, making it ideal for portrait, wedding, and event photography with Sony cameras.",
             "brand": "sony"
         },
         "Fla_02": {
             "title": "Godox V1 Flash for Canon",
             "price": "Rs 1500 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Advanced round-head flash offering TTL, HSS, and wireless compatibility. Produces natural light spread, perfect for professional Canon photographers capturing portraits, weddings, and creative lighting setups.",
             "brand": "canon"
         },
         "Fla_03": {
             "title": "Godox V860 III Flash for Sony",
             "price": "Rs 1500 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Powerful on-camera flash with a rechargeable battery, fast recycling, and TTL/HSS support. Ideal for professional Sony shooters capturing weddings, portraits, and events with reliable lighting performance.",
             "brand": "sony"
         },
         "Fla_04": {
             "title": "Godox V860 III Flash for Canon",
             "price": "Rs 1500 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "TTL-enabled flash with lithium-ion battery, quick recycle times, and high-speed sync. Perfect for Canon users needing reliable lighting for portraits, weddings, and fast-paced photography environments.",
             "brand": "canon"
         },
         "Fla_05": {
             "title": "Godox TT685 Flash for Sony",
             "price": "Rs 1000 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Affordable TTL flash for Sony cameras, featuring HSS, wireless triggering, and fast recycling. Ideal for beginners and enthusiasts enhancing portrait and event photography with external lighting.",
             "brand": "sony"
         },
         "Fla_06": {
             "title": "Godox TT685 Flash for Canon",
             "price": "Rs 1000 per day",
-            "description": "Guide Number: 197' at ISO 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batteries.",
+            "description": "Budget-friendly TTL flash for Canon cameras with wireless support and HSS. Suitable for photographers who need versatile lighting options for portrait, event, and creative shoots.",
             "brand": "canon"
         },
         "Fla_07": {
             "title": "Godox AD200 TTL Pocket Flash Kit",
             "price": "Rs 3000 per day",
-            "description": "Guide Number: 197' at ISOA full-frame mirrorless camera featuring a 24.2MP sensor, 4K video recording, and fast autofocus. Perfect for professional photographers and videographers seeking exceptional image quality and performance. 100, 200mm. Compatible with Canon's E-TTL II System. Zoom Coverage: 20-200mm. Recycle Time: 0.1-5.5 Seconds. Flash Duration: 1/800-1/20000 Second. Wireless Master/Slave Operation. Weather-Sealed Construction. LCD Panel with Backlight. Powered by 4x AA Batterie.",
+            "description": "Compact yet powerful off-camera flash with interchangeable heads and TTL/HSS support. Perfect for location shooting, providing studio-quality light in a portable package for professional photographers.",
             "brand": "sony and canon"
         },
 
@@ -374,13 +374,13 @@ document.addEventListener('DOMContentLoaded', function () {
         "Gim_01": {
             "title": "DJI RS 4 Gimbal Stabilizer",
             "price": "Rs 4000 per day",
-            "description": "The DJI RS 4 Gimbal Stabilizer is designed for professional filmmakers and content creators, offering advanced stabilization features and a robust build. It supports a wide range of cameras and lenses, making it a versatile choice for any shooting scenario.",
+            "description": "Professional 3-axis gimbal offering powerful stabilization, smooth tracking, and intuitive controls. Supports various cameras and lenses, perfect for filmmakers and content creators seeking dynamic, cinematic footage.",
             "type": "video"
         },
         "Gim_02": {
             "title": "DJI RS 3 Gimbal Stabilizer",
             "price": "Rs 3500 per day",
-            "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
+            "description": "Advanced handheld gimbal providing smooth stabilization for mirrorless and DSLR cameras. Lightweight and compact, ideal for run-and-gun videographers and content creators needing reliable, professional results.",
             "type": "video"
         },
         "Gim_03": {
@@ -392,13 +392,13 @@ document.addEventListener('DOMContentLoaded', function () {
         "Gim_04": {
             "title": "DJI OSMO 6 Mobile Gimbal Stabilizer",
             "price": "Rs 2000 per day",
-            "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
+            "description": "Smartphone gimbal with 3-axis stabilization, gesture controls, and tracking features. Perfect for vloggers, travelers, and casual users looking to create smooth, cinematic mobile videos.",
             "type": "video"
         },
         "Gim_05": {
             "title": "AOCHUAN Smart X2 Smartphone Mobile Gimbal",
             "price": "Rs 1500 per day",
-            "description": "Add a miniature, handheld gimbal camera to create family videos, add footage to your photo shoots, or vlog your latest streaming creations with the DJI Pocket 2 Creator Combo. The Pocket 2 is a lightweight, ultra-compact gimbal stabilizer and 4K camera combination, just as small as its predecessor but adds a 1/17 64MP CMOS sensor, up to 8x zoom, 93°",
+            "description": "Portable smartphone gimbal with smart tracking, gesture control, and multiple shooting modes. Great for vloggers and mobile content creators looking for stabilized video and creative shooting options.",
             "type": "video"
         },
 
@@ -407,25 +407,25 @@ document.addEventListener('DOMContentLoaded', function () {
         "Act_01": {
             "title": "DJI Osmo Pocket 3 Creator Combo",
             "price": "Rs 4500 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "description": "All-in-one handheld gimbal camera featuring a large sensor, 4K video, and intelligent shooting modes. Compact and powerful, perfect for vloggers and solo creators capturing smooth, cinematic footage.",
             "type": "action camera"
         },
         "Act_02": {
             "title": "Gopro HERO 13",
             "price": "Rs 3000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "description": "Rugged action camera offering 5.3K video, advanced stabilization, and waterproof design. Ideal for extreme sports, travel, and vlogging, capturing high-resolution footage in the toughest environments.",
             "type": "action camera"
         },
         "Act_04": {
             "title": "Gopro HERO 9",
             "price": "Rs 2000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "description": "Versatile action camera with 5K video, HyperSmooth stabilization, and front display. Perfect for adventure enthusiasts, vloggers, and travelers capturing high-quality footage in all conditions.",
             "type": "action camera"
         },
         "Act_05": {
             "title": "Insta 360 ",
             "price": "Rs 3000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More.",
+            "description": "Compact 360-degree action camera capturing immersive videos and photos. Features FlowState stabilization and waterproof design, making it perfect for creative travel content, sports, and VR storytelling.",
             "type": "action camera"
         },
 
@@ -435,58 +435,58 @@ document.addEventListener('DOMContentLoaded', function () {
         "Dro_01": {
             "title": "DJI Air 3s Fly More Combo",
             "price": "Rs 15000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Advanced drone with dual cameras, 4K video(D.log), and up to 46-minute flight time. Includes extra batteries and accessories, ideal for aerial photography, videography, and professional drone pilots."
         },
         "Dro_02": {
             "title": "DJI Mini 4 Pro Drone with RC 2 Fly More Plus Combo",
             "price": "Rs 14000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Compact and lightweight drone with 4K video(D.Log), obstacle avoidance, and extended flight time. Fly More Plus combo includes extra batteries and accessories for extended shooting sessions."
         },
         "Dro_03": {
             "title": "DJI Air 2s Fly More Combo",
             "price": "Rs 12000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Powerful drone featuring 1-inch sensor, 5.4K video, and intelligent flight modes. Fly More combo offers additional batteries and accessories for professional aerial photography and videography."
         },
         "Dro_04": {
             "title": "DJI Mini 3 Drone with RC Fly More Combo",
             "price": "Rs 12000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Small, portable drone with 4K video, GPS, and quick setup. The Fly More combo includes spare batteries and accessories, great for beginners and hobbyists capturing aerial shots."
         },
         "Dro_05": {
             "title": "DJI Mini 2 Drone with Fly More Combo",
             "price": "Rs 8000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Ultra-lightweight drone with 4K video, strong wind resistance, and 31-minute flight time. Fly More combo adds extra batteries and carrying case for extended outdoor shooting."
         },
 
         "Vid_01": {
             "title": "Tolifo SK-200D RGB LED Video/Photography Light",
             "price": "Rs 3000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Professional RGB LED light offering adjustable color temperature and high brightness. Ideal for video shoots, portraits, and creative lighting setups with full control over ambiance."
         },
         "Vid_02": {
             "title": "LED 800 Pro Video/Photography Light",
             "price": "Rs 3000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Bright LED panel with adjustable brightness and color temperature. Suitable for studio and location shoots, delivering consistent, flicker-free light for photography and videography."
         },
         "Vid_03": {
             "title": "Godox LED RGB Light Stick LC500R",
             "price": "Rs 2000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Portable RGB LED light stick with multiple color options and effects. Perfect for creative lighting in photography and video, including portraits, events, and artistic projects."
         },
         "Vid_04": {
             "title": "NiceFoto TC-C2 Handheld Round RGB Stick",
             "price": "Rs 2000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Compact RGB light stick featuring adjustable colors and effects. Handy for mobile lighting, adding creative flair to portraits, events, and video shoots."
         },
         "Camcorder_01": {
             "title": "SONY HXR-NX200 4K CAMCORDER",
             "price": "Rs 4000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems. Includes 3 Batteries, Charging Hub, and More."
+            "description": "Professional 4K camcorder with high-quality sensor and optics. Designed for event, documentary, and broadcast production, offering excellent image quality and versatile recording options."
         },
         "Tri_01": {
             "title": "Yunteng Fluid Head Video Tripod",
             "price": "Rs 1000 per day",
-            "description": "1/2\" CMOS Sensor, 48MP Photos. 4K/60fps Video, HDR Support. 34-Min Max Flight Time. 10km Max Transmission Range. OcuSync 2.0 Transmission. 3-Axis Gimbal, 4K/60fps HDR Video. Advanced Pilot Assistance Systems."
+            "description": "Stable video tripod with fluid head for smooth panning and tilting. Ideal for professional videographers needing steady shots and precise camera movements in various shooting conditions."
         },
         "Mic_01": {
             "title": "DJI Mic 2 Digital Wireless Microphone",
