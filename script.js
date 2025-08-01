@@ -502,7 +502,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "BOYA Dual-Channel Wireless",
             "price": "Rs 2000 per day",
             "description": "Affordable dual wireless mic system with omnidirectional lavaliers, up to 100m range, real-time monitoring, and clear audio quality—great for beginner creators, events, and mobile video shoots."
-        }
+        },
+        "Fla_08": {
+            "title": "Godox AD600B Witstro TTL All-In-One Outdoor Flash",
+            "price": "Rs 3500 per day",
+            "description": "Powerful 600Ws battery-powered flash with TTL, HSS, and built-in 2.4GHz wireless system. Ideal for outdoor and studio shoots, delivering consistent lighting and portability for professional photographers."
+        },
     };
 
     function initSlideshow(images) {
