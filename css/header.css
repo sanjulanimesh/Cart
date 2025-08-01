@@ -223,9 +223,7 @@ img {
         position: static;
         width: 100%;
         background: #000000;
-        z-index: 1000;
-        
-    
+        z-index: 1000;        
     }
     .navbar .logo-wrapper {
         margin-bottom: 1rem;
@@ -305,6 +303,8 @@ img {
     }
     h1 { font-size: 1.5rem; }
 }
+
+
 
 @keyframes shine
 {
