@@ -488,6 +488,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 1000 per day",
             "description": "Stable video tripod with fluid head for smooth panning and tilting. Ideal for professional videographers needing steady shots and precise camera movements in various shooting conditions."
         },
+        "Tri_02": {
+            "title": "Yunteng Fluid Head Video Monopod",
+            "price": "Rs 1000 per day",
+            "description": "A lightweight aluminum monopod with fluid pan head, quick release plate, and 360° rotation support. Extends to 148 cm, supports up to ~4 kg. Ideal for smooth video and hybrid camera use."
+        },
         "Mic_01": {
             "title": "DJI Mic 2 Digital Wireless Microphone",
             "price": "Rs 3000 per day",
