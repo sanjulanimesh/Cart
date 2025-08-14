@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400,300);
+html, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    line-height: 24px;
+    font-size: 15px;
+}
+
+h1, h2, h4{
+	font-weight: bold;
+}
+
+h4{
+	text-transform: uppercase;
+}
+
+
+
+.dark-stroke, .white-stroke, .clients-stroke, .clients-logos img{
+	display: block;
+	margin: 0px auto;
+}
+
+.container{
+
+	overflow: hidden;
+}
+
+.our-clients {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	color: #6b6868;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.clients-title{
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.clients-stroke{
+	border-bottom: 2px solid #6b6868;
+	width: 80px;
+	margin-top: 12px;
+	margin-bottom: 14px;	
+}
+
+.our-clients div{
+
+	padding-right: 30px;
+	padding-left: 20px;	
+}
+
+.our-clients .col-md-4{
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+
+.clients-list div:hover h4{
+	color: #202020;
+}
+
+.clients-list h4{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+.clients-logos{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #6B6868;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 480px) {
+
+		.our-clients div{
+		padding-right: 10px;
+		padding-left: 10px;
+		}
+
+		
+}
