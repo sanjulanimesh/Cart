@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         "Vid_04": {
             "title": "NiceFoto TC-C2 Handheld Round RGB Stick",
-            "price": "Rs 2000 per day",
+            "price": "Rs 1500 per day",
             "description": "Compact RGB light stick featuring adjustable colors and effects. Handy for mobile lighting, adding creative flair to portraits, events, and video shoots."
         },
         "Camcorder_01": {
