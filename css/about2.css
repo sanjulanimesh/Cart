@@ -673,6 +673,11 @@ nav {
 @media (max-width: 768px) {
     .mobile-menu-toggle {
         display: block;
+        
+    }
+
+    .mobile-menu-toggle a .fa-bars {
+        color: #ffffff;
     }
 
     .nav-content {
