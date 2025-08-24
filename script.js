@@ -513,6 +513,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 3500 per day",
             "description": "Powerful 600Ws battery-powered flash with TTL, HSS, and built-in 2.4GHz wireless system. Ideal for outdoor and studio shoots, delivering consistent lighting and portability for professional photographers."
         },
+        "Fla_09": {
+            "title": "Godox V100 Flash for Sony",
+            "price": "Rs 2000 per day",
+            "description": "Powerful 100 Ws on-camera flash with intuitive 2.3″ touchscreen, detachable sub-flash, and 2 W modeling light. Offers fast 1.7 s recycle, global-shutter sync up to 1/80 000 s, and wireless TTL control."
+        }
     };
 
     function initSlideshow(images) {
