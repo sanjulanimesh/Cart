@@ -517,6 +517,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Godox V100 Flash for Sony",
             "price": "Rs 2000 per day",
             "description": "Powerful 100 Ws on-camera flash with intuitive 2.3″ touchscreen, detachable sub-flash, and 2 W modeling light. Offers fast 1.7 s recycle, global-shutter sync up to 1/80 000 s, and wireless TTL control."
+        },
+        "Cam_12": {
+            "title": "Sony Alpha a7 II Mirrorless Digital Camera",
+            "price": "Rs 3500 per day",
+            "description": "Full-frame 24.3MP mirrorless camera featuring 5-axis in-body image stabilization, fast hybrid autofocus, and robust build. Ideal for photographers seeking high-quality images, smooth video, and reliable low-light performance."
         }
     };
 
