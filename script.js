@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "type": "video"
         },
         "Gim_04": {
-            "title": "DJI OSMO 6 Mobile Gimbal Stabilizer",
+            "title": "DJI OSMO 7 Mobile Gimbal Stabilizer",
             "price": "Rs 2000 per day",
             "description": "Smartphone gimbal with 3-axis stabilization, gesture controls, and tracking features. Perfect for vloggers, travelers, and casual users looking to create smooth, cinematic mobile videos.",
             "type": "video"
