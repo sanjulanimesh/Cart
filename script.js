@@ -522,6 +522,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Sony Alpha a7 II Mirrorless Digital Camera",
             "price": "Rs 3500 per day",
             "description": "Full-frame 24.3MP mirrorless camera featuring 5-axis in-body image stabilization, fast hybrid autofocus, and robust build. Ideal for photographers seeking high-quality images, smooth video, and reliable low-light performance."
+        },
+        "Cam_13": {
+            "title": "Sony FX30 Digital Cinema Camera",
+            "price": "Rs 6500 per day",
+            "description": "Compact Super 35 cinema camera with 4K recording, advanced autofocus, and cinematic color profiles. Designed for filmmakers and content creators needing professional-quality video in a lightweight body."
         }
     };
 
