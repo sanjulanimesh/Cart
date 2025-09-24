@@ -527,6 +527,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Sony FX30 Digital Cinema Camera",
             "price": "Rs 6500 per day",
             "description": "Compact Super 35 cinema camera with 4K recording, advanced autofocus, and cinematic color profiles. Designed for filmmakers and content creators needing professional-quality video in a lightweight body."
+        },
+        "Cam_14": {
+            "title": "Sony FX3 Full-Frame Cinema Camera",
+            "price": "Rs 10000 per day",
+            "description": "Compact full-frame cinema camera offering 4K recording, advanced autofocus, and cinematic color science. Combines professional video features with portability, perfect for filmmakers, creators, and documentary production."
         }
     };
 
