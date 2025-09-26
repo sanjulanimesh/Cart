@@ -43,6 +43,58 @@
         </div>
     </nav>
 
+    <div class="delivery-banner">
+        <span class="delivery-text"> We're Deliver Now! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Branches &nbsp;->&nbsp; @Colombo @Malabe @Gampha</span>
+    </div>
+    <style>
+    .delivery-banner {
+        width: 100%;
+        margin: 1px;
+        position: relative;
+        overflow: hidden;
+        height: 28px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .delivery-text {
+        position: absolute;
+        left: 100%;
+        white-space: nowrap;
+        padding: 0 16px;
+        background: #ffffff;
+        color: #e94d4d;
+        font-size: 1.2em;
+        font-weight: bold;
+        animation: tickerMove 10s linear infinite;
+        text-shadow: 1px 2px 9px rgba(0,0,0,0.1);
+        
+
+    }
+
+    @keyframes tickerMove {
+        0%   { left: 100%; }
+        100% { left: calc(-1 * var(--text-width, 100%)); }
+    }
+
+    /* Mobile fix: calculate text width for smooth exit */
+    @media (max-width: 600px) {
+        .delivery-banner { height: 38px; }
+        .delivery-text { font-size: 1em; }
+    }
+    </style>
+    <script>
+    // Dynamically set --text-width for smooth animation
+    document.addEventListener("DOMContentLoaded", function() {
+        var text = document.querySelector('.delivery-text');
+        if (text) {
+            var width = text.offsetWidth;
+            text.style.setProperty('--text-width', width + 'px');
+        }
+    });
+    </script>
+
     <!-- Main Content -->
     <div class="container">
         <!-- Filters Section -->
