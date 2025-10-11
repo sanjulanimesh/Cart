@@ -537,6 +537,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Sony Alpha a7R III Mirrorless Digital Camera",
             "price": "Rs 5000 per day",
             "description": "High-resolution full-frame mirrorless camera with 42.4MP sensor, 399-point AF system, and 10fps continuous shooting. Ideal for professional photographers and videographers seeking exceptional image quality and performance." 
+        },
+        "Cam_16": {
+            "title": "Canon EOS 90D DSLR Camera",
+            "price": "Rs 4000 per day",
+            "description": "Versatile APS-C DSLR camera with 32.5MP sensor, 45-point AF system, and 10fps continuous shooting. Perfect for photography enthusiasts and videographers looking for a reliable and high-quality camera."
         }
     };
 
