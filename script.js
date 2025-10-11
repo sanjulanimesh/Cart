@@ -532,6 +532,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Sony FX3 Full-Frame Cinema Camera",
             "price": "Rs 10000 per day",
             "description": "Compact full-frame cinema camera offering 4K recording, advanced autofocus, and cinematic color science. Combines professional video features with portability, perfect for filmmakers, creators, and documentary production."
+        },
+        "Cam_15": {
+            "title": "Sony Alpha a7R III Mirrorless Digital Camera",
+            "price": "Rs 5000 per day",
+            "description": "High-resolution full-frame mirrorless camera with 42.4MP sensor, 399-point AF system, and 10fps continuous shooting. Ideal for professional photographers and videographers seeking exceptional image quality and performance." 
         }
     };
 
