@@ -78,6 +78,205 @@
                 <h3 class=""> Hello there! ...</h3><br>
                 <h2 class="">We're Professional Cameras & Equipments Rentals in Sri Lanka</h2>
                 <br><br><br><br><br>
+
+                <!-- 
+                <style>
+                    /* Slideshow styles (responsive) */
+                    .slideshow {
+                        width: 100%;
+                        max-width: 900px;
+                        margin: 0 auto 20px;
+                        position: relative;
+                        overflow: hidden;
+                        border-radius: 8px;
+                        background: #000;
+                    }
+                    .slides {
+                        display: flex;
+                        transition: transform 0.6s ease;
+                        will-change: transform;
+                    }
+                    .slide {
+                        flex: 0 0 100%;
+                        user-select: none;
+                    }
+                    .slide img {
+                        width: 100%;
+                        height: 320px;
+                        object-fit: cover;
+                        display: block;
+                    }
+
+                    /* Controls */
+                    .slideshow .btn {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: rgba(0,0,0,0.45);
+                        color: #fff;
+                        border: none;
+                        padding: 8px 10px;
+                        cursor: pointer;
+                        border-radius: 4px;
+                        font-size: 18px;
+                    }
+                    .slideshow .prev { left: 10px; }
+
+                    /* Dots */
+                    .dots {
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 10px;
+                        display: flex;
+                        gap: 6px;
+                    }
+                    .dot {
+                        width: 10px;
+                        height: 10px;
+                        background: rgba(255,255,255,0.5);
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+                    .dot.active { background: #fff; }
+
+                    /* Make slideshow normal (not fixed) and centered */
+                    .slideshow {
+                        position: relative;
+                        width: 100%;
+                        max-width: 900px;
+                        margin: 0 auto 20px;
+                        z-index: 1;
+                        border-radius: 8px;
+                        background: #000;
+                        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+                    }
+                    /* hide any left/right buttons (we removed the prev/next buttons) */
+                    .slideshow .btn { display: none; }
+
+                    /* Mobile adjustments */
+                    @media (max-width: 600px) {
+                        .slide img { height: 200px; }
+                        .slideshow { width: calc(100% - 12px); }
+                    }
+
+                    /* Google Nest Hub / similar smart-display sizes
+                        - target common Nest Hub resolution 1024x600 (landscape)
+                        - provide a slightly larger slide height and tweak dots placement */
+                    @media (width: 1024px) and (height: 600px), (min-width:900px) and (max-width:1100px) and (max-height:700px) {
+                        .slide img { height: 360px; }
+                        .slideshow { max-width: 960px; margin: 0 auto 18px; }
+                        .dots { bottom: 12px; gap: 8px; }
+                    }
+
+                    /* Nest Hub in portrait-like tall displays (e.g. 600x1024) */
+                    @media (width: 600px) and (height: 1024px), (max-width: 700px) and (orientation: portrait) {
+                        .slide img { height: 300px; }
+                        .slideshow { width: calc(100% - 24px); }
+                        .dots { bottom: 10px; }
+                    }
+
+
+                </style>
+
+                        <div class="slideshow" id="slideshow">
+                            <div class="slides" id="slides">
+                                <div class="slide"><img src="./images/ads/image.png" alt="slide 1"></div>
+                                <div class="slide"><img src="./images/album/pexels-photo-1738986.jpg" alt="slide 2"></div>
+                                <div class="slide"><img src="./images/album/pexels-photo-2970287.jpg" alt="slide 3"></div>
+                                <div class="slide"><img src="./images/album/pexels-photo-1722206.jpg" alt="slide 4"></div>
+                                <div class="slide"><img src="./images/album/pexels-photo-3494648.jpg" alt="slide 5"></div>
+                            </div>
+
+                            <div class="dots" id="dots"></div>
+                        </div>
+
+                    <script>
+                    (function(){
+                        const slidesEl = document.getElementById('slides');
+                        const slides = Array.from(slidesEl.children);
+                        const total = slides.length;
+                        let index = 0;
+                        const intervalMs = 4000; // 4 seconds
+                        let timer = null;
+
+                        const dotsEl = document.getElementById('dots');
+                        for (let i = 0; i < total; i++) {
+                            const d = document.createElement('div');
+                            d.className = 'dot' + (i === 0 ? ' active' : '');
+                            d.dataset.index = i;
+                            dotsEl.appendChild(d);
+                        }
+
+                        function goTo(i) {
+                            index = (i + total) % total;
+                            slidesEl.style.transform = `translateX(-${index * 100}%)`;
+                            updateDots();
+                        }
+                        function next() { goTo(index + 1); }
+                        function prev() { goTo(index - 1); }
+                        function updateDots() {
+                            dotsEl.querySelectorAll('.dot').forEach((d, idx) => {
+                                d.classList.toggle('active', idx === index);
+                            });
+                        }
+
+                        // Auto play
+                        function startTimer(){
+                            stopTimer();
+                            timer = setInterval(next, intervalMs);
+                        }
+                        function stopTimer(){
+                            if (timer) { clearInterval(timer); timer = null; }
+                        }
+
+                        // Dots control
+                        dotsEl.addEventListener('click', (e) => {
+                            const d = e.target.closest('.dot');
+                            if (!d) return;
+                            goTo(Number(d.dataset.index));
+                            startTimer();
+                        });
+
+                        // Pause on hover (desktop)
+                        const slideshow = document.getElementById('slideshow');
+                        slideshow.addEventListener('mouseenter', stopTimer);
+                        slideshow.addEventListener('mouseleave', startTimer);
+
+                        // Touch / swipe support for mobile
+                        let startX = 0;
+                        let moved = false;
+                        slideshow.addEventListener('touchstart', (e) => {
+                            stopTimer();
+                            startX = e.touches[0].clientX;
+                            moved = false;
+                        }, {passive:true});
+                        slideshow.addEventListener('touchmove', (e) => {
+                            moved = true;
+                        }, {passive:true});
+                        slideshow.addEventListener('touchend', (e) => {
+                            if (!moved) { startTimer(); return; }
+                            const endX = (e.changedTouches && e.changedTouches[0]) ? e.changedTouches[0].clientX : startX;
+                            const diff = endX - startX;
+                            if (Math.abs(diff) > 40) {
+                                if (diff < 0) next(); else prev();
+                            }
+                            startTimer();
+                        });
+
+                        // Initialize
+                        goTo(0);
+                        startTimer();
+                    })();
+                    </script> -->
+
+
+
+
+
+
+
+
                 <p class="">
                     
                     Pixels Camera Rent is <b>Sri Lanka's No. 1 company</b>, providing cameras and videography equipment at the best prices in the country.
