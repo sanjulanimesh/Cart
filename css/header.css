@@ -113,7 +113,7 @@ img {
 }
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/header.jpg);
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: #111;
     background-position: top right;
     background-size: cover;
@@ -126,14 +126,10 @@ img {
 .header .box {
     max-width: 50%;
     min-width: 300px;
+    margin-top: auto;
+    
 }
 
-.header .box h1 {
-    color: #fff;
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 30%, #000000 50%, rgba(0, 0, 0, 0.5) 70%);
-    -webkit-mask-size: 180%;
-    animation: shine 2s linear infinite;
-}
 
 .header .box .btn {
     padding: 0.50rem 1rem;
@@ -159,6 +155,11 @@ img {
     border: 1px solid #b50000;
     cursor: pointer;
     transition: 0.5s;
+}
+.header .box .heading {
+    margin-top: auto;
+    margin-top: 20px;
+    
 }
 
 
@@ -262,6 +263,7 @@ img {
         padding: 0.8rem 0;
         text-align: center;
     }
+    
 }
 
 /* Responsive Email Input */
@@ -280,7 +282,9 @@ img {
       font-size: 0.95rem;
       padding: 10px;
       max-width: 100%;
+      
     }
+    
 }
 
 /* Responsive Navbar and Header */
@@ -290,6 +294,8 @@ img {
     h4 { font-size: 1.1rem; }
     .container {
         padding: 1.2rem 3%;
+
+    
     }
     .header .box {
         max-width: 90%;
@@ -297,6 +303,9 @@ img {
         padding: 0 1rem;
     }
 }
+
+
+
 
 @media (max-width: 768px) {
     .container {
@@ -339,6 +348,7 @@ img {
         min-width: unset;
         padding: 0 1.5rem;
         text-align: left;
+        
     }
     .header .box .btn {
         width: 100%;
@@ -348,7 +358,12 @@ img {
         padding: 0.8rem 0;
         text-align: center;
         
+        
     }
+
+    
+    
+
     .hamburger {
         display: flex;
         flex-direction: column;
@@ -373,6 +388,11 @@ img {
     .navbar .navbar-links.show {
         display: flex;
     }
+
+    .header .box .heading {
+    margin-top: -100px;
+  
+    }
 }
 
 @media (max-width: 480px) {
@@ -380,13 +400,20 @@ img {
         padding: 1.4rem 2%;
     }
     .header {
-        min-height: 60vh;
+        min-height: 50vh;
         padding: 1rem 0;
     }
     .header .box {
         padding: 0 0.5rem;
     }
     h1 { font-size: 1.5rem; }
+
+    .header .box .heading {
+    margin-top: -100px;
+  
+    }
+
+
     
     
 }
