@@ -324,8 +324,35 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Sigma 70-200mm f/2.8 DG OS HSM Sports lens for Canon EF mount offers sharp telephoto performance, image stabilization, and fast autofocus for professional sports and wildlife shots.",
             "brand": "canon"
         },
+        "Len_33": {
+            "title": "Sony FE 24mm f/1.4 GM Lens",
+            "price": "Rs 3000 per day",
+            "description": "Sony FE 24mm f/1.4 GM Lens is a premium wide-angle lens known for its exceptional sharpness, beautiful bokeh, and compact design, making it ideal for landscape, architecture, and astrophotography.",
+            "brand": "sony"
+        },
+        "Len_36": {
+            "title": "Sony FE 35mm f/1.4 GM Lens",
+            "price": "Rs 3000 per day",
+            "description": "Sony FE 35mm f/1.4 GM Lens is a premium wide-angle lens known for its exceptional sharpness, beautiful bokeh, and compact design, making it ideal for street, documentary, and environmental portrait photography.",
+            "brand": "sony"
+        },
+        "Len_35": {
+            "title": "Sony FE 50mm f/1.2 GM Lens",
+            "price": "Rs 3000 per day",
+            "description": "Sony FE 50mm f/1.2 GM Lens is a premium standard prime lens known for its exceptional sharpness, beautiful bokeh, and fast autofocus, making it ideal for portraits, street photography, and low-light situations.",
+            "brand": "sony"
+        },
+        "Len_34": {
+            "title": "Sony FE 85mm f/1.4 GM Lens",
+            "price": "Rs 3000 per day",
+            "description": "Sony FE 85mm f/1.4 GM Lens is a premium portrait lens known for its exceptional sharpness, beautiful bokeh, and fast autofocus, making it ideal for portrait, wedding, and event photography.",
+            "brand": "sony"
+        },
 
-        
+          
+
+
+
 
         "Fla_01": {
             "title": "Godox V1 Flash for Sony",
