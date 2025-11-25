@@ -423,9 +423,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "type": "video"
         },
         "Gim_05": {
-            "title": "AOCHUAN Smart X2 Smartphone Mobile Gimbal",
+            "title": "DJI OSMO 8 Mobile Gimbal Stabilizer",
             "price": "Rs 1500 per day",
-            "description": "Portable smartphone gimbal with smart tracking, gesture control, and multiple shooting modes. Great for vloggers and mobile content creators looking for stabilized video and creative shooting options.",
+            "description": "Compact smartphone gimbal offering 3-axis stabilization, intelligent shooting modes, and easy portability. Ideal for vloggers and casual creators seeking smooth video footage on the go.",
             "type": "video"
         },
 
