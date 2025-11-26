@@ -28,11 +28,7 @@
                 <i class="fas fa-bars"></i>
             </div>
 
-            <div class="nav-content" id="navContent">
-                <div class="search-container">
-                    <!-- <input type="text" placeholder="Search...">
-                    <button type="submit"><i class="fas fa-search"></i></button> -->
-                </div>
+            <div class="nav-content" id="navContent"><br>
                 <div class="nav-links">
                     <a href="./index.html">Home</a>
                     <a href="./rent.html">Rent Store</a>
@@ -43,13 +39,13 @@
         </div>
     </nav>
 
-    <div class="delivery-banner">
+    <div class="delivery-banner" style="margin-top: 10px;">
         <span class="delivery-text"> We're Delivering Now! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Branches &nbsp;->&nbsp; @Colombo @Malabe @Gampha</span>
     </div>
+
     <style>
     .delivery-banner {
         width: 100%;
-        margin: 1px;
         position: relative;
         overflow: hidden;
         height: 28px;
@@ -94,6 +90,54 @@
     });
     </script>
 
+    <!-- Search Bar -->
+    <div class="search-container" style="margin-left: auto; margin-right: auto;">
+        <input id="searchInput" type="text" placeholder="Search by title or brand..." aria-label="Search products">
+        <button id="searchButton" type="button"><i class="fas fa-search"></i></button>
+    </div>
+            <script>
+                        (function() {
+                            var input = document.getElementById('searchInput');
+                            var button = document.getElementById('searchButton');
+
+                            function filterProducts(query) {
+                                var q = (query || '').trim().toLowerCase();
+                                var products = document.querySelectorAll('.product-card');
+                                products.forEach(function(card) {
+                                    var title = (card.querySelector('.product-title')?.textContent || '').toLowerCase();
+                                    var imgAlt = (card.querySelector('.product-image')?.alt || '').toLowerCase();
+                                    var imgSrc = (card.querySelector('.product-image')?.getAttribute('src') || '').toLowerCase();
+                                    var matches = !q || title.includes(q) || imgAlt.includes(q) || imgSrc.includes(q);
+                                    card.style.display = matches ? '' : 'none';
+                                });
+                            }
+
+                            // Live search as user types
+                            input.addEventListener('input', function(e) {
+                                filterProducts(e.target.value);
+                            });
+
+                            // Click search button
+                            button.addEventListener('click', function() {
+                                filterProducts(input.value);
+                            });
+
+                            // Enter key triggers search (prevents form submit if inside a form)
+                            input.addEventListener('keydown', function(e) {
+                                if (e.key === 'Enter') {
+                                    e.preventDefault();
+                                    filterProducts(input.value);
+                                }
+                            });
+
+                            // optional: reset filter when page loads empty
+                            document.addEventListener('DOMContentLoaded', function() {
+                                filterProducts(input.value);
+                            });
+                        })();
+            </script>
+
+
     <!-- Main Content -->
     <div class="container">
         <!-- Filters Section -->
@@ -113,6 +157,7 @@
                         <input type="radio" id="cameras" name="category">
                         <label for="cameras">Cameras</label>
                     </li>
+                    
                     <li>
                         <input type="radio" id="action" name="category">
                         <label for="action">Action Cameras</label>
@@ -176,7 +221,7 @@
                     </div>
                 </div>
 
-                  <div class="product-card" data-category="cameras" data-product-id="Cam_13">
+                <div class="product-card" data-category="cameras" data-category="sony" data-product-id="Cam_13">
                     <a href="#" class="call-buttonn">
                     <img src="camera/Cameras/Cam_13/Cam_13.jpg" alt="Mirrorless Camera" class="product-image"></a>
                     <div class="product-info">
@@ -188,7 +233,7 @@
 
                 <div class="product-card" data-category="cameras" data-product-id="Cam_09">
                     <a href="#" class="call-buttonn">
-                        <img src="camera/Cameras/Cam_09/Cam_09.jpg" alt="DSLR Camera" class="product-image"></a>
+                        <img src="camera/Cameras/Cam_09/Cam_09.jpg" alt="Mirrorless Camera" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sony Alpha a7 IV Mirrorless Digital Camera</h3>
                         <div class="product-price">Rs 6000 per Day</div>
@@ -208,7 +253,7 @@
 
                 <div class="product-card" data-category="cameras" data-product-id="Cam_01">
                     <a href="#" class="call-buttonn">
-                        <img src="camera/Cameras/Cam_01/Cam_01.jpg" alt="DSLR Camera" class="product-image"></a>
+                        <img src="camera/Cameras/Cam_01/Cam_01.jpg" alt="Mirrorless Camera" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sony Alpha a7 III Mirrorless Digital Camera</h3>
                         <div class="product-price">Rs 4500 per Day</div>
@@ -345,12 +390,12 @@
                 </div>
 
 
-                <!-- last camera id cam 36 -->
+                <!-- last camera id cam 37 -->
                 <!-- Lens Products -->
                 <!-- Sony Lens -->
                  <div class="product-card" data-category="lenses" data-product-id="Len_06">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_06/Len_06.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_06/Len_06.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 50mm f/1.8 Lens</h3>
                         <div class="product-price">Rs 1500 per Day</div>
@@ -368,7 +413,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_01">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_01/Len_01.jpg" alt="50mm Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_01/Len_01.jpg" alt="Wide Angle Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 16-28mm f/2.8 DG DN Lens Sony E</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -378,7 +423,7 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_03">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_03/Len_03.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_03/Len_03.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 35mm f/1.4 DG DN Art Lens for Sony E</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -387,7 +432,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_04">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_04/Len_04.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_04/Len_04.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 50mm f/1.4 DG DN Art Lens for Sony E</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -396,7 +441,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_05">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_05/Len_05.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_05/Len_05.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 85mm f/1.4 DG DN Art Lens for Sony E</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -407,7 +452,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_08">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_08/Len_08.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_08/Len_08.jpg" alt="Standard Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 24-70mm f/2.8 DG DN Art Lens for Sony E</h3>
                         <div class="product-price">Rs 3500 per Day</div>
@@ -417,7 +462,7 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_10">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_10/Len_10.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_10/Len_10.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 70-200mm f/2.8 DG DN OS Sports Lens Sony E</h3>
                         <div class="product-price">Rs 4000 per Day</div>
@@ -447,7 +492,7 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_36">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_36/Len_36.jpg" alt="Wide Angle Lens" class="product-image"> </a>
+                    <img src="Camera/Lenses/Len_36/Len_36.jpg" alt="Prime Lens" class="product-image"> </a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 35mm f/1.4 GM Lens</h3>
                         <div class="product-price">Rs 3000 per Day</div>
@@ -457,20 +502,31 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_35">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_35/Len_35.jpg" alt="Wide Angle Lens" class="product-image"> </a>
+                    <img src="Camera/Lenses/Len_35/Len_35.jpg" alt="Prime Lens" class="product-image"> </a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 50mm f/1.4 GM Lens</h3>
                         <div class="product-price">Rs 3000 per Day</div>
                         <a href="#" class="call-button">Rent Now</a>
                     </div>
                 </div>
+                
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_34">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_34/Len_34.jpg" alt="Wide Angle Lens" class="product-image"> </a>
+                    <img src="Camera/Lenses/Len_34/Len_34.jpg" alt="Prime Lens" class="product-image"> </a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 85mm f/1.4 GM Lens</h3>
                         <div class="product-price">Rs 3000 per Day</div>
+                        <a href="#" class="call-button">Rent Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="lenses" data-product-id="Len_37">
+                    <a href="#" class="call-buttonn">
+                    <img src="Camera/Lenses/Len_37/Len_37.jpg" alt="Macro Lens" class="product-image"> </a>
+                    <div class="product-info">
+                        <h3 class="product-title">Sony FE 90mm f/2.8 Macro G OSS Lens</h3>
+                        <div class="product-price">Rs 3500 per Day</div>
                         <a href="#" class="call-button">Rent Now</a>
                     </div>
                 </div>
@@ -488,7 +544,7 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_09">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_09/Len_09.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_09/Len_09.jpg" alt="Standard Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 24-70mm f/2.8 GM II Lens</h3>
                         <div class="product-price">Rs 5000 per Day</div>
@@ -498,7 +554,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_22">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_22/Len_22.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_22/Len_22.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sony FE 200-600mm f/5.6-6.3 G OSS Lens</h3>
                         <div class="product-price">Rs 5500 per Day</div>
@@ -510,7 +566,7 @@
 
                 <div class="product-card" data-category="lenses" data-product-id="Len_12">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_12/Len_12.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_12/Len_12.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Canon EF 50mm f/1.8 STM Lens</h3>
                         <div class="product-price">Rs 1000 per Day</div>
@@ -537,7 +593,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_15">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_15/Len_15.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_15/Len_15.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Canon EF 75-300mm f/4-5.6 III Lens</h3>
                         <div class="product-price">Rs 1500 per Day</div>
@@ -555,7 +611,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_17">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_17/Len_17.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_17/Len_17.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 35mm f/1.4 DG HSM Art Lens for Canon EF</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -564,7 +620,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_18">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_18/Len_18.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_18/Len_18.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 50mm f/1.4 DG HSM Art Lens for Canon EF</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -573,7 +629,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_19">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_19/Len_19.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_19/Len_19.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 85mm f/1.4 DG HSM Art Lens for Canon EF</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -582,7 +638,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_20">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_20/Len_20.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_20/Len_20.jpg" alt="Standard Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Canon EF</h3>
                         <div class="product-price">Rs 3500 per Day</div>
@@ -592,7 +648,7 @@
                                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_32">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_32/Len_32.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_32/Len_32.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 70-200mm f/2.8 DG OS HSM Sports Lens Canon EF</h3>
                         <div class="product-price">Rs 3000 per Day</div>
@@ -601,7 +657,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_23">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_23/Len_23.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_23/Len_23.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Canon RF 800mm f/11 IS STM Lens</h3>
                         <div class="product-price">Rs 4000 per Day</div>
@@ -610,7 +666,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_21">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_21/Len_21.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_21/Len_21.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 150-600mm f/5-6.3 DG OS HSM Lens for Canon EF</h3>
                         <div class="product-price">Rs 4500 per Day</div>
@@ -631,7 +687,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_25">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_25/Len_25.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_25/Len_25.jpg" alt="Telephoto Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Nikon AF-P NIKKOR 70-300mm ED VR Lens</h3>
                         <div class="product-price">Rs 1500 per Day</div>
@@ -641,7 +697,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_27">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_27/Len_27.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_27/Len_27.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 35mm f/1.4 DG HSM Art Lens for Nikon F</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -650,7 +706,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_28">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_28/Len_28.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_28/Len_28.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 50mm f/1.4 DG HSM Art Lens for Nikon F</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -659,7 +715,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_29">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_29/Len_29.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_29/Len_29.jpg" alt="Prime Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 85mm f/1.4 DG HSM Art Lens for Nikon F</h3>
                         <div class="product-price">Rs 2500 per Day</div>
@@ -669,7 +725,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_26">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_26/Len_26.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_26/Len_26.jpg" alt="Standard Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 24-70mm f/2.8 DG OS HSM Art Lens for Nikon F</h3>
                         <div class="product-price">Rs 3500 per Day</div>
@@ -680,7 +736,7 @@
                 
                 <div class="product-card" data-category="lenses" data-product-id="Len_31">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_31/Len_31.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_31/Len_31.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Sigma 70-200mm f/2.8 DG OS HSM Sports Lens Nikon F</h3>
                         <div class="product-price">Rs 3000 per Day</div>
@@ -689,7 +745,7 @@
                 </div>
                 <div class="product-card" data-category="lenses" data-product-id="Len_24">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Lenses/Len_24/Len_24.jpg" alt="Wide Angle Lens" class="product-image"></a>
+                    <img src="Camera/Lenses/Len_24/Len_24.jpg" alt="Telephoto Zoom Lens" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">Tamron SP 150-600mm f/5-6.3 Di VC USD G2 for Nikon F</h3>
                         <div class="product-price">Rs 4500 per Day</div>
@@ -723,7 +779,7 @@
                     <a href="#" class="call-buttonn">
                     <img src="Camera/Gimbals/Gim_03/Gim_03.jpg" alt="Camera Gimbal" class="product-image"></a>
                     <div class="product-info">
-                        <h3 class="product-title">DJI RS 2 Stabilizer</h3>
+                        <h3 class="product-title">DJI RS 2 Pro Stabilizer</h3>
                         <div class="product-price">Rs 3500 per Day</div>
                         <a href="#" class="call-button">Rent Now</a>
                     </div>
@@ -731,7 +787,7 @@
 
                 <div class="product-card" data-category="gimbals" data-product-id="Gim_05">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Gimbals/Gim_05/Gim_05.jpg" alt="Camera Gimbal" class="product-image"></a>
+                    <img src="Camera/Gimbals/Gim_05/Gim_05.jpg" alt="Mobile Gimbal" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">DJI OSMO 8 Mobile Gimbal</h3>
                         <div class="product-price">Rs 2000 per Day</div>
@@ -741,7 +797,7 @@
 
                 <div class="product-card" data-category="gimbals" data-product-id="Gim_04">
                     <a href="#" class="call-buttonn">
-                    <img src="Camera/Gimbals/Gim_04/Gim_04.jpg" alt="Camera Gimbal" class="product-image"></a>
+                    <img src="Camera/Gimbals/Gim_04/Gim_04.jpg" alt="Mobile Gimbal" class="product-image"></a>
                     <div class="product-info">
                         <h3 class="product-title">DJI OSMO 7 Mobile Gimbal</h3>
                         <div class="product-price">Rs 2000 per Day</div>
@@ -944,6 +1000,7 @@
                         <a href="#" class="call-button">Rent Now</a>
                     </div>
                 </div>
+                
 
 
 

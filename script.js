@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         "Len_01": {
             "title": "Sigma 16-28mm f/2.8 DG DN Lens Sony E",
-            "price": "Rs 2000 per day",
+            "price": "Rs 2500 per day",
             "description": "Sigma 16-28mm f/2.8 lens for Sony E mount offers a wide-angle view, sharp optics, and a bright aperture ideal for landscapes, architecture, and creative low-light shots.",
             "brand": "sony"
         },
@@ -346,6 +346,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Sony FE 85mm f/1.4 GM Lens",
             "price": "Rs 3000 per day",
             "description": "Sony FE 85mm f/1.4 GM Lens is a premium portrait lens known for its exceptional sharpness, beautiful bokeh, and fast autofocus, making it ideal for portrait, wedding, and event photography.",
+            "brand": "sony"
+        },
+        "Len_37": {
+            "title": "Sony FE 90mm f/2.8 Macro G OSS Lens",
+            "price": "Rs 3500 per day",
+            "description": "Sony FE 90mm f/2.8 Macro G OSS Lens is a premium macro lens known for its exceptional sharpness, beautiful bokeh, and fast autofocus, making it ideal for close-up, nature, and product photography.",
             "brand": "sony"
         },
 
