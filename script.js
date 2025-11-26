@@ -486,12 +486,12 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 
         "Vid_01": {
-            "title": "Tolifo SK-200D RGB LED Video/Photography Light",
+            "title": "Tolifo SK-200D RGB LED Video & Photography Light",
             "price": "Rs 3000 per day",
             "description": "Professional RGB LED light offering adjustable color temperature and high brightness. Ideal for video shoots, portraits, and creative lighting setups with full control over ambiance."
         },
         "Vid_02": {
-            "title": "LED 800 Pro Video/Photography Light",
+            "title": "LED 800 Pro Video & Photography Light",
             "price": "Rs 3000 per day",
             "description": "Bright LED panel with adjustable brightness and color temperature. Suitable for studio and location shoots, delivering consistent, flicker-free light for photography and videography."
         },
@@ -505,6 +505,14 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 1500 per day",
             "description": "Compact RGB light stick featuring adjustable colors and effects. Handy for mobile lighting, adding creative flair to portraits, events, and video shoots."
         },
+        "Vid_05": {
+            "title": "Tolifo KW-300B LED Video & Photography Light",
+            "price": "Rs 3000 per day",
+            "description": "High-power LED video light with adjustable brightness and color temperature. Suitable for professional video production and photography, offering versatile lighting options and reliable performance."
+        },
+
+
+
         "Camcorder_01": {
             "title": "SONY HXR-NX200 4K CAMCORDER",
             "price": "Rs 4000 per day",
