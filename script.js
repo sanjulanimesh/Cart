@@ -516,6 +516,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 3000 per day",
             "description": "High-power LED video light with adjustable brightness and color temperature. Suitable for professional video production and photography, offering versatile lighting options and reliable performance."
         },
+        "Vid_06": {
+            "title": "ZSYB YB-100R 100W RGB LED Light Stick",
+            "price": "Rs 2000 per day",
+            "description": "Portable RGB LED light stick with adjustable colors and brightness. Ideal for on-the-go lighting in photography and videography, providing creative options for various shooting scenarios."
+        },
 
 
 
