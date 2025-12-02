@@ -34,8 +34,14 @@ nav {
     flex-wrap: wrap;
 }
 
+.nav-container a img{
+    height: 50px;
+    width: auto;
+}
+
 .logo {
     height: 50px;
+    width: auto;
     -webkit-mask-image: linear-gradient(-75deg, rgba(255, 255, 255, 0.5) 30%, #000000 50%, rgba(0, 0, 0, 0.5) 70%);
     -webkit-mask-size: 180%;
     animation: shine 2s linear infinite;
@@ -44,6 +50,7 @@ nav {
 }
 
 .mobile-menu-toggle {
+
     display: none;
     color: white;
     font-size: 24px;
