@@ -620,6 +620,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 2000 per day",
             "description": "Affordable dual wireless mic system with omnidirectional lavaliers, up to 100m range, real-time monitoring, and clear audio quality—great for beginner creators, events, and mobile video shoots."
         },
+        "Mic_04": {
+            "title": "Mic Adapter for Wireless Microphone",
+            "price": "Rs 500 per day",
+            "description": " Adapter to connect wireless microphone systems to cameras or audio recorders, ensuring compatibility and secure audio connections for professional recording setups."
+        },
+
         "Fla_08": {
             "title": "Godox AD600B Witstro TTL All-In-One Outdoor Flash",
             "price": "Rs 3500 per day",
@@ -658,11 +664,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-        "Acc_01": {
-            "title": "Mic Adapter for Wireless Microphone",
-            "price": "Rs 500 per day",
-            "description": " Adapter to connect wireless microphone systems to cameras or audio recorders, ensuring compatibility and secure audio connections for professional recording setups."
-        }
+        
     };
 
     function initSlideshow(images) {
