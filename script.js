@@ -576,6 +576,16 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 1500 per day",
             "description": "High-quality capture card for streaming and recording. Supports multiple input formats and provides low-latency video capture for professional content creation."
         },
+        "Live_05": {
+            "title": "HDMI 20M",
+            "price": "Rs 500 per day",
+            "description": "20-meter HDMI cable suitable for high-definition video and audio transmission. Ideal for connecting cameras, monitors, and other video equipment in professional setups."
+        },
+        "Live_06": {
+            "title": "XLR Cable",
+            "price": "Rs 500 per day",
+            "description": "Professional XLR cable for audio connections. Provides reliable and clear audio signal transmission, perfect for microphones and audio equipment in various production environments."
+        },
 
 
         "Tri_01": {
