@@ -555,10 +555,21 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Compact 4K camcorder with advanced autofocus and professional features. Ideal for news gathering, event coverage, and documentary filmmaking, delivering sharp video and reliable performance."
         },
 
+
         "Live_01": {
             "title": "Blackmagic Atem Mini Pro ",
             "price": "Rs 5000 per day",
             "description": "Portable live streaming encoder with 4G connectivity and multi-platform support. Perfect for content creators and broadcasters needing reliable, high-quality live streaming on the go."
+        },
+        "Live_02": {
+            "title": "Hollyland Cosmo C1 Wireless Video Transmission System",
+            "price": "Rs 5000 per day",
+            "description": "Wireless video transmission system with low latency and long-range capabilities. Ideal for filmmakers and videographers requiring reliable video feeds during shoots."
+        },
+        "Live_03": {
+            "title": "Hollyland Solidcom SE Global 5S 5-Person",
+            "price": "Rs 6500 per day",
+            "description": "Professional wireless intercom system supporting up to 5 users globally. Perfect for film sets, live events, and broadcast productions requiring clear and reliable communication."
         },
 
 
