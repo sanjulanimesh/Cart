@@ -526,9 +526,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
         "Camcorder_01": {
             "title": "SONY HXR-NX200 4K CAMCORDER",
-            "price": "Rs 4000 per day",
+            "price": "Rs 5000 per day",
             "description": "Professional 4K camcorder with high-quality sensor and optics. Designed for event, documentary, and broadcast production, offering excellent image quality and versatile recording options."
         },
+
+        "Camcorder_02": {
+            "title": "SONY PXW Z90 4K CAMCORDER",
+            "price": "Rs 5000 per day",
+            "description": "Compact 4K camcorder with advanced autofocus and professional features. Ideal for news gathering, event coverage, and documentary filmmaking, delivering sharp video and reliable performance."
+        },
+
         "Tri_01": {
             "title": "Yunteng Fluid Head Video Tripod",
             "price": "Rs 1000 per day",
@@ -588,6 +595,14 @@ document.addEventListener('DOMContentLoaded', function () {
             "title": "Canon EOS 90D DSLR Camera",
             "price": "Rs 4000 per day",
             "description": "Versatile APS-C DSLR camera with 32.5MP sensor, 45-point AF system, and 10fps continuous shooting. Perfect for photography enthusiasts and videographers looking for a reliable and high-quality camera."
+        },
+
+
+
+        "Acc_01": {
+            "title": "Mic Adapter for Wireless Microphone",
+            "price": "Rs 500 per day",
+            "description": " Adapter to connect wireless microphone systems to cameras or audio recorders, ensuring compatibility and secure audio connections for professional recording setups."
         }
     };
 
