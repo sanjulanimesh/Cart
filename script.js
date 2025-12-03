@@ -661,10 +661,22 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 4000 per day",
             "description": "Versatile APS-C DSLR camera with 32.5MP sensor, 45-point AF system, and 10fps continuous shooting. Perfect for photography enthusiasts and videographers looking for a reliable and high-quality camera."
         },
+        "Pod_01": {
+            "title":"RODE RODECaster Pro II Integrated Audio Production Studio",
+            "price": "Rs 6000 per day",
+            "description": "Integrated audio production studio with multi-channel recording, sound effects, and podcasting features. Ideal for podcasters and content creators seeking professional audio quality and ease of use."
+        },
+        "Pod_02": {
+            "title":"RODE PodMic Dynamic Podcasting Microphone",
+            "price": "Rs 2000 per day",
+            "description": "Dynamic broadcast-quality microphone designed for podcasting and voice recording. Features a robust build and tailored frequency response for clear, professional sound."
+        },
+        "Pod_03": {
+            "title":"RODE PSA1+ Professional Studio Arm",
+            "price": "Rs 1500 per day",
+            "description": "Professional studio arm designed for podcasting microphones. Provides flexible positioning and sturdy support for optimal microphone placement."
+        },
 
-
-
-        
     };
 
     function initSlideshow(images) {
