@@ -625,6 +625,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 500 per day",
             "description": " Adapter to connect wireless microphone systems to cameras or audio recorders, ensuring compatibility and secure audio connections for professional recording setups."
         },
+        "Mic_05": {
+            "title": "Zoom H8 8-Input / 12-Track Portable Handy Recorder",
+            "price": "Rs 2500 per day",
+            "description": "Versatile portable audio recorder with 8 inputs and 12-track recording capability. Ideal for field recording, podcasting, and music production with high-quality preamps and intuitive interface."
+        },
 
         "Fla_08": {
             "title": "Godox AD600B Witstro TTL All-In-One Outdoor Flash",
