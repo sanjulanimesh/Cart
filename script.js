@@ -397,11 +397,30 @@ document.addEventListener('DOMContentLoaded', function () {
             "brand": "canon"
         },
         "Fla_07": {
-            "title": "Godox AD200 TTL Pocket Flash Kit",
+            "title": "Godox AD200 Pocket Flash Kit",
             "price": "Rs 3000 per day",
             "description": "Compact yet powerful off-camera flash with interchangeable heads and TTL/HSS support. Perfect for location shooting, providing studio-quality light in a portable package for professional photographers.",
             "brand": "sony and canon"
         },
+        "Fla_08": {
+            "title": "Godox AD800 Witstro TTL Flash Kit",
+            "price": "Rs 3500 per day",
+            "description": "High-output off-camera flash with TTL, HSS, and wireless control. Ideal for professional photographers needing versatile lighting for portraits, events, and outdoor shoots.",
+            "brand": "sony and canon"
+        },
+        "Fla_09": {
+            "title": "Godox V100 Flash for Sony",
+            "price": "Rs 2000 per day",
+            "description": "Compact TTL flash with round head design, HSS, and wireless capabilities. Perfect for Sony photographers seeking portable and effective lighting solutions for various shooting scenarios.",
+            "brand": "sony"
+        },
+        "Fla_10": {
+            "title": "Godox V860 III Flash for Nikon",
+            "price": "Rs 1500 per day",
+            "description": "Powerful on-camera flash with a rechargeable battery, fast recycling, and TTL/HSS support. Ideal for professional Nikon shooters capturing weddings, portraits, and events with reliable lighting performance.",
+            "brand": "nikon"
+        },
+
 
 
         "Gim_01": {
