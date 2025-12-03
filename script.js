@@ -571,6 +571,11 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 6500 per day",
             "description": "Professional wireless intercom system supporting up to 5 users globally. Perfect for film sets, live events, and broadcast productions requiring clear and reliable communication."
         },
+        "Live_04": {
+            "title": "UGREEN Capture Card",
+            "price": "Rs 1500 per day",
+            "description": "High-quality capture card for streaming and recording. Supports multiple input formats and provides low-latency video capture for professional content creation."
+        },
 
 
         "Tri_01": {
