@@ -546,6 +546,13 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 1000 per day",
             "description": "A lightweight aluminum monopod with fluid pan head, quick release plate, and 360° rotation support. Extends to 148 cm, supports up to ~4 kg. Ideal for smooth video and hybrid camera use."
         },
+        "Tri_03": {
+            "title": "Sirui Heavy-Duty Carbon Fiber Video Tripod",
+            "price": "Rs 1500 per day",
+            "description": "Heavy-duty carbon fiber tripod with fluid head for professional video production. Provides stability, smooth movements, and durability for various shooting environments."
+        },
+
+
         "Mic_01": {
             "title": "DJI Mic 2 Digital Wireless Microphone",
             "price": "Rs 3000 per day",
