@@ -555,6 +555,13 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Compact 4K camcorder with advanced autofocus and professional features. Ideal for news gathering, event coverage, and documentary filmmaking, delivering sharp video and reliable performance."
         },
 
+        "Live_01": {
+            "title": "Blackmagic Atem Mini Pro ",
+            "price": "Rs 5000 per day",
+            "description": "Portable live streaming encoder with 4G connectivity and multi-platform support. Perfect for content creators and broadcasters needing reliable, high-quality live streaming on the go."
+        },
+
+
         "Tri_01": {
             "title": "Yunteng Fluid Head Video Tripod",
             "price": "Rs 1000 per day",
