@@ -672,6 +672,13 @@ document.addEventListener('DOMContentLoaded', function () {
             "price": "Rs 4000 per day",
             "description": "Versatile APS-C DSLR camera with 32.5MP sensor, 45-point AF system, and 10fps continuous shooting. Perfect for photography enthusiasts and videographers looking for a reliable and high-quality camera."
         },
+        "cam_17": {
+            "title": "Canon 70D DSLR Camera",
+            "price": "Rs 4500 per day",
+            "description": "Versatile APS-C DSLR camera with 20.2MP sensor, 19-point AF system, and 7fps continuous shooting. Suitable for photography enthusiasts and videographers seeking reliable performance and image quality."
+        },
+
+
         "Pod_01": {
             "title":"RODE RODECaster Pro II Integrated Audio Production Studio",
             "price": "Rs 6000 per day",
