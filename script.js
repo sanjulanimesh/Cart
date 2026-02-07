@@ -453,6 +453,12 @@ document.addEventListener('DOMContentLoaded', function () {
             "description": "Compact smartphone gimbal offering 3-axis stabilization, intelligent shooting modes, and easy portability. Ideal for vloggers and casual creators seeking smooth video footage on the go.",
             "type": "video"
         },
+        "Gim_06": {
+            "title": "DJI RS 5 Gimbal Stabilizer",
+            "price": "Rs 4500 per day",
+            "description": "High-performance 3-axis gimbal stabilizer designed for professional filmmakers and content creators. Offers advanced stabilization, smooth tracking, and versatile compatibility with various cameras and lenses.",
+            "type": "video"
+        },
 
 
 
